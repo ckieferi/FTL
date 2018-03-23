@@ -1,0 +1,233 @@
+.bg-white {
+    background-color: #ffffff;
+    /* Grey */
+    color: #cb4332;
+}
+    .bg-grey {
+        background-color: #333333;
+        /* Grey */
+        color: #ffffff;
+    }
+    
+    .bg-lightgrey {
+        background-color: #666666;
+        /* Grey */
+        color: #ffffff;
+    }
+		
+    .bg-darkgrey {
+        background-color: #272727;
+        /* Grey */
+        color: #ffffff;
+    }
+    
+    .bg-black {
+        background-color: #000000;
+        /* Grey */
+        color: #ffffff;
+    }
+		
+    .bg-pink {
+        background-color: #cb4332;
+        /* Grey */
+        color: #ffffff;
+    }
+    
+    h1 {
+        font-family: "Montserrat", Helvetica, serif;
+        text-align: center;
+        padding-bottom: 20px;
+        padding-top: 50px;
+    }
+    
+    h2 {
+        font-family: "Montserrat", Helvetica, serif;
+        text-align: center;
+        padding-bottom: 20px;
+    }
+
+    .events h3{
+
+        color: #cb4332;
+    }
+
+    .events h1{
+
+        color: #cb4332;
+    }
+    
+    p {
+        font-family: "Lato", Helvetica, sans-serif;
+        font-size: 16px;
+        color: #808080;
+    }
+    
+    a:hover {
+        color: #ffffff;
+        text-decoration: none;
+    }
+    
+    a {
+        font-family: 'Lato', Helvetica, sans-serif;
+        color: #cb4332;
+    }
+    
+    .nav-link {
+        color: #333333;
+        font-weight: 400;
+        font-size: 16px;
+        font-family: 'Montserrat', Helvetica, sans-serif;
+    }
+    
+    a.nav-link:hover {
+        color: #cb4332;
+    }
+    
+    a.nav-link:active {
+        color: #ff6666;
+        text-decoration-line: underline;
+        text-decoration-color: #ff6666;
+        border-bottom-color: #ff6666;
+    }
+
+    a.nav-link:visited {
+        color: #330044;
+        font-weight: 400;
+        font-size: 16px;
+        font-family: 'Montserrat', Helvetica, sans-serif;
+    }
+    
+    body {
+        padding: 0;
+    }
+    
+    .content-lead {
+        padding: 0 5rem 0 5rem;
+    }
+    
+    .content-lead p {
+        text-align: justify;
+    }
+    
+    .navbar {
+        margin-bottom: 0 !important;
+    }
+    
+    .navbar-ftl {
+        padding-left: 40px;
+        padding-right: 40px;
+        vertical-align: middle;
+        font-weight: 400
+    }
+    
+		.staedte-text {
+			vertical-align: top;
+			padding-top: 20px;
+			padding-bottom: 20px;
+		}
+
+    .werwirsind {
+        font-family: "Montserrat", Helvetica, serif;
+        font-size: 36px;
+        text-align: center;
+        padding-bottom: 20px;
+        padding-top: 50px;
+    }
+		
+    #intro {
+        background: url('images/grafiken/fintechladies-berlin.jpg') no-repeat center center;
+    }
+    
+    #intro h1,
+    #intro h2 {
+        text-align: center;
+        color: white;
+    }
+    
+    .kontaktbg {
+        background: url('images/grafiken/fintechladies-berlin-darker.jpg') no-repeat center center;
+        color: #ffffff;
+    }
+    
+    .logo {
+        width: 80px;
+        height: 80px;
+    }
+    
+    .ladiespics {
+        border-radius: 90px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        width: 140px;
+        height: 140px;
+    }
+    
+    .ladiesinfo {
+        text-align: center;
+        font-family: 'Lato', Helvetica, sans-serif;
+        font-weight: 600;
+        color: #333333;
+        margin-bottom: 5px;
+    }
+    
+    .ladiestext {
+        text-align: center;
+        max-width: 250px;
+        margin: auto;
+        border-top: 2px solid #cb4332;
+    }
+
+    .ladiesrole {
+        text-align: center; 
+        font-family: 'Lato', Helvetica, sans-serif;
+        font-size: 14px;       
+        font-weight: 200;
+        color: #cb4332;
+       
+    }
+    
+    .ladiessocialicon {}
+    
+    a.ladiessocialicon {
+        color: #333333;
+    }
+    
+    a.ladiessocialicon:hover {
+        color: #cb4332;
+    }
+    
+    .kontakttext {
+        color: #ffffff;
+        text-align: center;
+    }
+    
+    .newsletterbox {
+        border: 1px solid #333333;
+        border-radius: 5px;
+        background-color: white;
+        padding: 10px;
+    }
+    
+    .newsletterboxtext {
+        color: #333333;
+        font-size: 14px;
+    }
+    
+    .hidden {
+        display: none;
+    }
+
+	.mediasnippets {
+	  padding: 2rem 2rem 2rem 0;
+	   text-align: left;
+	            
+		}
+		
+    a.mediasnippets:hover {
+       color: #cb4332;
+        text-decoration: underline;
+    }
+
+		table tbody tr td {
+			padding: 0;
+		}
