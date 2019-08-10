@@ -1,0 +1,1532 @@
+# Translation of Plugins - WP Job Manager - Stable (latest release) in Finnish
+# This file is distributed under the same license as the Plugins - WP Job Manager - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2017-09-12 11:11:07+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: fi\n"
+"Project-Id-Version: Plugins - WP Job Manager - Stable (latest release)\n"
+
+#: wp-job-manager-functions.php:640
+msgid "Other"
+msgstr "Muu"
+
+#: wp-job-manager-functions.php:639
+msgid "Per Diem"
+msgstr "Päiväraha"
+
+#: wp-job-manager-functions.php:638
+msgid "Volunteer"
+msgstr "Vapaaehtoinen"
+
+#: wp-job-manager-functions.php:637
+msgid "Intern"
+msgstr "Harjoittelija"
+
+#: wp-job-manager-functions.php:636
+msgid "Temporary"
+msgstr "Määräaikainen/sijaisuus"
+
+#: wp-job-manager-functions.php:635
+msgid "Contractor"
+msgstr "Urakoitsija/alihankkija"
+
+#: wp-job-manager-functions.php:634
+msgid "Part Time"
+msgstr "Osa-aikainen"
+
+#: wp-job-manager-functions.php:633
+msgid "Full Time"
+msgstr "Vakituinen"
+
+#: lib/wpjm_rest/controller/class-wp-job-manager-rest-controller-settings.php:35
+msgid "Settings not found"
+msgstr "Asetuksia ei löytynyt"
+
+#: lib/wpjm_rest/controller/class-wp-job-manager-rest-controller-crud.php:48
+msgid "Model not found"
+msgstr "Mallia ei löytynyt"
+
+#. translators: %s is usually a field name.
+#: lib/wpjm_rest/class-wp-job-manager-rest-model.php:207
+msgid "%s cannot be empty"
+msgstr "%s ei voi olla tyhjä"
+
+#: includes/rest-api/class-wp-job-manager-models-settings.php:72
+msgid "Invalid page ID provided"
+msgstr "Väärä sivu ID annettu"
+
+#: includes/rest-api/class-wp-job-manager-controllers-status.php:52
+msgid "Not Found"
+msgstr "Ei löytynyt"
+
+#: includes/admin/class-wp-job-manager-taxonomy-meta.php:78
+#: includes/admin/class-wp-job-manager-taxonomy-meta.php:100
+#: includes/admin/class-wp-job-manager-taxonomy-meta.php:118
+msgid "Employment Type"
+msgstr "Työsuhteen tyyppi"
+
+#: includes/admin/class-wp-job-manager-settings.php:293
+msgid "Select the page where you've used the [jobs] shortcode. This lets the plugin know the location of the job listings page."
+msgstr "Valitse sivu, jolla olet käyttänyt [jobs] lyhytkoodia. Tällöin plugin tietää työnhakusivun sijainnin."
+
+#: includes/admin/class-wp-job-manager-settings.php:286
+msgid "Select the page where you've used the [job_dashboard] shortcode. This lets the plugin know the location of the dashboard."
+msgstr "Valitse sivu, jolla [job_dashboard] lyhytkoodi sijaitsee. Tämä kertoo pluginille missä ilmoitusten hallintapaneeli sijaitsee."
+
+#: includes/admin/class-wp-job-manager-settings.php:279
+msgid "Select the page where you've used the [submit_job_form] shortcode. This lets the plugin know the location of the form."
+msgstr "Valitse millä sivulla käytät [submit_job_form] lyhytkoodia. Tämä kertoo plugarille missä kyseinen lomake sijaitsee."
+
+#: includes/admin/class-wp-job-manager-settings.php:262
+msgid "Choose the application method job listers will need to provide. Specify URL or email address only, or allow listers to choose which they prefer."
+msgstr "Valitse hakutapa, jonka ilmoituksen listaaja voi valita. Voit valita URL:n tai sähköposti pelkältään tai antaa ilmoittajan valita tahtomansa hakutapa."
+
+#: includes/admin/class-wp-job-manager-settings.php:255
+msgid "Listings will display for the set number of days, then expire. Leave this field blank if you don't want listings to have an expiration date."
+msgstr "Ilmoitus näytetään määritellyn ajan, jonka jälkeen se vanhenee. Jätä tämä kenttä tyhjäksi mikäli et halua, että ilmoituksella on vanhenemispäivämäärää."
+
+#: includes/admin/class-wp-job-manager-settings.php:247
+msgid "Users can continue to edit pending listings until they are approved by an admin."
+msgstr "Käyttäjät voivat muokaa julkaisua odottavia ilmoituksia, kunnes pääkäyttäjä hyväksyy ilmoitukset."
+
+#: includes/admin/class-wp-job-manager-settings.php:246
+msgid "Allow editing of pending listings"
+msgstr "Mahdollista odottavien ilmoitusten muokkaus"
+
+#: includes/admin/class-wp-job-manager-settings.php:238
+msgid "Sets all new submissions to \"pending.\" They will not appear on your site until an admin approves them."
+msgstr "Aseta kaikki uudet ilmoitukset odotustilaan. Näitä ilmoituksia ei julkaista ennen kuin sivuston pääkäyttäjä hyväksyy ne."
+
+#: includes/admin/class-wp-job-manager-settings.php:237
+msgid "Require admin approval of all new listing submissions"
+msgstr "Vaadi pääkäyttäjän hyväksyntää kaikkien uusien ilmoitusten julkaisussa"
+
+#: includes/admin/class-wp-job-manager-settings.php:220
+msgid "Email new users a link to set a password"
+msgstr "Lähetä uudelle käyttäjälle sähköpostiin linkki, jonka kautta hän voi asettaa salasanan."
+
+#: includes/admin/class-wp-job-manager-settings.php:211
+msgid "Generate usernames from email addresses"
+msgstr "Luo käyttäjätunnus sähköpostiosoitteesta"
+
+#: includes/admin/class-wp-job-manager-settings.php:202
+msgid "Enable account creation during submission"
+msgstr "Ota tili käyttöön jätön yhteydessä"
+
+#: includes/admin/class-wp-job-manager-settings.php:194
+msgid "Limits job listing submissions to registered, logged-in users."
+msgstr "Rajaa ilmoituksen jättö rekisteröityihin/kirjautuneisiin käyttäjiin."
+
+#: includes/admin/class-wp-job-manager-settings.php:193
+msgid "Require an account to submit listings"
+msgstr "Vaadi käyttäjätili ilmoituksen jättöön"
+
+#: includes/admin/class-wp-job-manager-settings.php:152
+msgid "Enable listing types"
+msgstr "Ota käyttöön listaustyypit"
+
+#: includes/admin/class-wp-job-manager-settings.php:132
+msgid "Default to category multiselect"
+msgstr "Kategorian multiselect oletusarvo"
+
+#: includes/admin/class-wp-job-manager-settings.php:123
+msgid "Enable listing categories"
+msgstr "Ota käyttöön listauskategoriat."
+
+#: includes/admin/class-wp-job-manager-settings.php:115
+msgid "Your site will display the titles of expired listings, but not the content of the listings. Otherwise, expired listings display their full content minus the application area."
+msgstr "Sivustollasi näytetään vanhentuneiden ilmoitusten otsikot, mutta ei ilmoitusten sisältöä. Muuten vanhentuneissa ilmoituksissa näytetään koko sisällön lukuunottamatta hakutoimintoaluetta."
+
+#: includes/admin/class-wp-job-manager-settings.php:114
+msgid "Hide content in expired single job listings"
+msgstr "Piilota yksittäisten vanhentuneiden ilmoitusten sisältö"
+
+#: includes/admin/class-wp-job-manager-settings.php:106
+msgid "Expired job listings will not be searchable."
+msgstr "Vanhentuneet ilmoitukset eivät näy hakutuloksissa."
+
+#: includes/admin/class-wp-job-manager-settings.php:97
+msgid "Filled positions will not display in your archives."
+msgstr "Täytetyt paikat eivät näy arkistoissa."
+
+#: includes/admin/class-wp-job-manager-settings.php:89
+msgid "Number of job listings to display per page."
+msgstr "Näytettyjen ilmoitusten määrä per sivu"
+
+#: wp-job-manager-template.php:633
+msgid "Verify Password"
+msgstr "Vahvista salasana"
+
+#: wp-job-manager-template.php:623
+msgid "Password"
+msgstr "Salasana"
+
+#: wp-job-manager-functions.php:707
+msgid "Passwords must be at least 8 characters long."
+msgstr "Salasanan tulee olla vähintään 8 merkkiä pitkä."
+
+#: includes/forms/class-wp-job-manager-form-submit-job.php:486
+msgid "Password is not valid."
+msgstr "Salasana ei kelpaa."
+
+#: includes/forms/class-wp-job-manager-form-submit-job.php:484
+msgid "Invalid Password: %s"
+msgstr "Väärä salasana: %s"
+
+#: includes/forms/class-wp-job-manager-form-submit-job.php:479
+msgid "Passwords must match."
+msgstr "Salasanojen täytyy täsmätä."
+
+#: includes/forms/class-wp-job-manager-form-submit-job.php:469
+msgid "Please enter a password."
+msgstr "Syötä salasana."
+
+#: includes/admin/class-wp-job-manager-settings.php:219
+msgid "Account Password"
+msgstr "Tilin salasana"
+
+#: includes/admin/class-wp-job-manager-permalink-settings.php:69
+msgid "Job type base"
+msgstr "Ilmoituksen tyypin pohja"
+
+#: includes/admin/class-wp-job-manager-permalink-settings.php:62
+msgid "Job category base"
+msgstr "Ilmoituksen kategorian pohja"
+
+#: includes/admin/class-wp-job-manager-permalink-settings.php:55
+msgid "Job base"
+msgstr "Ilmoituksen pohja"
+
+#: includes/admin/class-wp-job-manager-cpt.php:87
+msgid "%s marked as not filled"
+msgstr "%s merkitty täyttämättömäksi"
+
+#: includes/admin/class-wp-job-manager-cpt.php:86
+msgid "Mark %s Not Filled"
+msgstr "Merkitse %s täyttämättömäksi"
+
+#: includes/admin/class-wp-job-manager-cpt.php:82
+msgid "%s marked as filled"
+msgstr "%s merkitty täytetyksi"
+
+#: includes/admin/class-wp-job-manager-cpt.php:81
+msgid "Mark %s Filled"
+msgstr "Merkitse %s täytetyksi"
+
+#: includes/class-wp-job-manager-ajax.php:269
+msgid "You must be logged in to upload files using this method."
+msgstr "Sinun täytyy olla kirjautunut sisään, jotta voi käyttää tätä tiedoston siirtämistapaa."
+
+#: templates/job-submit.php:24
+msgid "Create A New Job"
+msgstr "Luo uusi ilmoitus"
+
+#: templates/job-submit.php:24
+msgid "You are editing an existing job. %s"
+msgstr "Olet muokkaamassa jo olemassa olevaa ilmoitusta. %s"
+
+#: includes/forms/class-wp-job-manager-form-submit-job.php:182
+msgid "Choose job type&hellip;"
+msgstr "Valitse ilmoituksen tyyppi&hellip;"
+
+#: includes/admin/class-wp-job-manager-settings.php:181
+msgid "Google requires an API key to retrieve location information for job listings. Acquire an API key from the <a href=\"%s\">Google Maps API developer site</a>."
+msgstr "Google vaatii API avaimen hakeakseen ilmoituksen paikannusinformaation. Hae API avain <a href=\"%s\">Google Maps API kehitys sivusto</a>."
+
+#: includes/admin/class-wp-job-manager-settings.php:180
+msgid "Google Maps API Key"
+msgstr "Google Maps API avain"
+
+#: includes/admin/class-wp-job-manager-settings.php:113
+msgid "Hide Expired Listings Content"
+msgstr "Piiloita vanhentuneen ilmoituksen sisältö"
+
+#: includes/admin/class-wp-job-manager-settings.php:105
+msgid "Hide expired listings in job archives/search"
+msgstr "Piiloita vanhentunut ilmoitus arkistoista/hauista"
+
+#: includes/admin/class-wp-job-manager-settings.php:104
+msgid "Hide Expired Listings"
+msgstr "Piiloita vanhentunut ilmoitus"
+
+#: wp-job-manager-template.php:667
+msgid "Posted on "
+msgstr "Julkaistu"
+
+#: includes/admin/class-wp-job-manager-settings.php:151
+msgid "Types"
+msgstr "Tyypit"
+
+#: includes/admin/class-wp-job-manager-settings.php:174
+msgid "Default date format as defined in Settings"
+msgstr "Oletuspäivämäärän muoto asetuksissa määritetyllä tavalla"
+
+#: includes/admin/class-wp-job-manager-settings.php:173
+msgid "Relative to the current date (e.g., 1 day, 1 week, 1 month ago)"
+msgstr "Suhteellinen nykyiseen päivämäärään (esim. 1 päivä, 1 viikko, 1 kuukausi sitten)"
+
+#: includes/admin/class-wp-job-manager-settings.php:170
+msgid "Choose how you want the published date for jobs to be displayed on the front-end."
+msgstr "Valitse, miten ilmoitusten julkaisupäivämäärä näytetään sivustolla."
+
+#: includes/admin/class-wp-job-manager-settings.php:169
+msgid "Date Format"
+msgstr "Päiväyksen muoto"
+
+#: includes/class-wp-job-manager-ajax.php:170
+msgid "Search completed. Found %d matching record."
+msgid_plural "Search completed. Found %d matching records."
+msgstr[0] "Haku suoritettu. Hakutuloksena %d sopiva ilmoitus."
+msgstr[1] "Haku suoritettu. Hakutuloksena %d sopivaa ilmoitusta."
+
+#: includes/admin/class-wp-job-manager-writepanels.php:201
+msgid "Most Used"
+msgstr "Eniten käytetty"
+
+#: includes/admin/class-wp-job-manager-settings.php:161
+msgid "Allow multiple types for listings"
+msgstr "Mahdollista useamman tyypin käyttö ilmoituksissa"
+
+#: includes/admin/class-wp-job-manager-settings.php:160
+msgid "Multi-select Listing Types"
+msgstr "Ilmoitustyyppien monivalinta"
+
+#: includes/admin/class-wp-job-manager-settings.php:141
+msgid "Determines the logic used to display jobs when selecting multiple categories."
+msgstr "Määrittää logiikan, jolla ilmoitukset esitetään, valittaessa useita kategorioita."
+
+#: templates/job-dashboard.php:58
+msgid "Duplicate"
+msgstr "Kopio"
+
+#: includes/class-wp-job-manager-shortcodes.php:133
+#: includes/class-wp-job-manager-shortcodes.php:146
+msgid "Missing submission page."
+msgstr "Lähetyssivu puuttuu."
+
+#. Author of the plugin/theme
+msgid "Automattic"
+msgstr "Automattic"
+
+#: includes/class-wp-job-manager-post-types.php:234
+msgid "Use as company logo"
+msgstr "Käytä yrityksen logona"
+
+#: includes/class-wp-job-manager-post-types.php:233
+msgid "Remove company logo"
+msgstr "Poista yrityksen logo"
+
+#: includes/class-wp-job-manager-post-types.php:232
+msgid "Set company logo"
+msgstr "Aseta yrityksen logo"
+
+#. translators: date format placeholder, see https://secure.php.net/date
+#: includes/admin/class-wp-job-manager-writepanels.php:113
+msgctxt "Date format placeholder."
+msgid "yyyy-mm-dd"
+msgstr "dd-mm-yyyy"
+
+#. translators: jQuery date format, see
+#. http://api.jqueryui.com/datepicker/#utility-formatDate
+#: includes/admin/class-wp-job-manager-admin.php:99
+msgctxt "Date format for jQuery datepicker."
+msgid "yy-mm-dd"
+msgstr "dd-mm-yy"
+
+#: includes/class-wp-job-manager-shortcodes.php:220
+msgid "Listing Expires"
+msgstr "Ilmoitus vanhenee"
+
+#: includes/class-wp-job-manager-post-types.php:275
+msgid "Preview <span class=\"count\">(%s)</span>"
+msgid_plural "Preview <span class=\"count\">(%s)</span>"
+msgstr[0] "Esikatsele <span class=\"count\">(%s)</span>"
+msgstr[1] "Esikatsele <span class=\"count\">(%s)</span>"
+
+#. Description of the plugin/theme
+msgid "Manage job listings from the WordPress admin panel, and allow users to post jobs directly to your site."
+msgstr "Hallinnoi työpaikkailmoituksia WordPress admin paneelin kautta ja salli työpaikkailmoitusten julkaisu suoraan sivuillasi."
+
+#. #-#-#-#-#  wp-job-manager-code.pot (WP Job Manager 1.28.0)  #-#-#-#-#
+#. Plugin URI of the plugin/theme
+#. #-#-#-#-#  wp-job-manager-code.pot (WP Job Manager 1.28.0)  #-#-#-#-#
+#. Author URI of the plugin/theme
+msgid "https://wpjobmanager.com/"
+msgstr "https://wpjobmanager.com/"
+
+#. Plugin Name of the plugin/theme
+msgid "WP Job Manager"
+msgstr "WP Job Manager"
+
+#: wp-job-manager.php:274
+msgid "Are you sure you want to delete this listing?"
+msgstr "Oletko varma, että haluat poistaa tämän ilmoituksen?"
+
+#: wp-job-manager.php:212
+msgid "Load previous listings"
+msgstr "Lataa aikaisemmat ilmoitukset"
+
+#: wp-job-manager.php:263
+msgid "Invalid file type. Accepted types:"
+msgstr "Virheellinen tiedostotyyppi. Hyväksytyt tyypit:"
+
+#: wp-job-manager-template.php:712
+msgid "Anywhere"
+msgstr "Missä tahansa"
+
+#: wp-job-manager-template.php:237
+msgid "Application via \"%s\" listing on %s"
+msgstr "Hakemuksen \"%s\" kautta on listattu %s"
+
+#: wp-job-manager-template.php:146
+msgid "Inactive"
+msgstr "Passiivinen"
+
+#: wp-job-manager-functions.php:1004
+msgid "Uploaded files need to be one of the following file types: %s"
+msgstr "Lähetettyjen tiedostojen muoto täytyy olla, jonkin seuraavista: %s"
+
+#: wp-job-manager-functions.php:789
+msgid "Choose a category&hellip;"
+msgstr "Valitse kategoria&hellip;"
+
+#: wp-job-manager-functions.php:472
+msgid "This email is already registered, please choose another one."
+msgstr "Sähköpostiosoite on jo rekisteröity, valitse toinen sähköpostiosoite."
+
+#: wp-job-manager-functions.php:468
+msgid "Your email address isn&#8217;t correct."
+msgstr "Sähköpostiosoitteesi on&#8217;t virheellinen."
+
+#: wp-job-manager-functions.php:460
+msgid "Invalid email address."
+msgstr "Virheellinen sähköpostiosoite."
+
+#: wp-job-manager-functions.php:365
+msgid "RSS"
+msgstr "RSS"
+
+#: wp-job-manager-functions.php:361
+msgid "Reset"
+msgstr "Reset"
+
+#: wp-job-manager-functions.php:260
+msgctxt "post status"
+msgid "Active"
+msgstr "Aktiivinen"
+
+#: wp-job-manager-functions.php:259
+msgctxt "post status"
+msgid "Pending payment"
+msgstr "Odottaa maksua"
+
+#: wp-job-manager-functions.php:258
+msgctxt "post status"
+msgid "Pending approval"
+msgstr "Odottaa hyväksyntää"
+
+#: includes/class-wp-job-manager-post-types.php:270
+#: wp-job-manager-functions.php:257
+msgctxt "post status"
+msgid "Preview"
+msgstr "Esikatselu"
+
+#: wp-job-manager-functions.php:255
+msgctxt "post status"
+msgid "Draft"
+msgstr "Luonnos"
+
+#: templates/job-submitted.php:25
+msgid "%s submitted successfully. Your listing will be visible once approved."
+msgstr "%s lähetetty onnistuneesti. Ilmoituksesi näytetään välittömästi hyväksymisen jälkeen."
+
+#: templates/job-submitted.php:22
+msgid "%s listed successfully. To view your listing <a href=\"%s\">click here</a>."
+msgstr "%s julkaistu onnistuneesti. Nähdäksesi ilmoituksen <a href=\"%s\">paina tästä</a>."
+
+#: templates/job-submit.php:54
+msgid "Company Details"
+msgstr "Yrityksen tiedot"
+
+#: templates/job-filters.php:62
+msgid "Your browser does not support JavaScript, or it is disabled. JavaScript must be enabled in order to view listings."
+msgstr "Selaimesi ei tue JavaScriptia tai se on poistettu käytöstä. Javascript täytyy olla käytössä, jotta listaus pystytään näyttämään."
+
+#: templates/job-filters.php:49
+msgid "Any category"
+msgstr "Mikä tahansa kategoria"
+
+#: templates/job-filters.php:45
+msgid "Category"
+msgstr "Kategoria"
+
+#: templates/job-filters.php:30 templates/job-filters.php:31
+msgid "Keywords"
+msgstr "Avainsanat"
+
+#: templates/job-dashboard.php:62
+msgid "Relist"
+msgstr "Uudelleen julkaise"
+
+#: templates/job-dashboard.php:55
+msgid "Mark filled"
+msgstr "Merkkaa täytetyksi"
+
+#: templates/job-dashboard.php:53
+msgid "Mark not filled"
+msgstr "Merkkaa täytetyksi"
+
+#: templates/job-dashboard.php:31
+msgid "You do not have any active listings."
+msgstr "Sinulla ei ole yhtään aktiivista ilmoitusta."
+
+#: templates/job-dashboard.php:19
+msgid "Your listings are shown in the table below."
+msgstr "Ilmoituksesi näkyvät alla olevassa taulukossa."
+
+#: templates/job-dashboard-login.php:20
+msgid "You need to be signed in to manage your listings."
+msgstr "Sinun täytyy olla kirjautunut sisään, jotta pystyt hallinnoimaan ilmoituksiasi."
+
+#: templates/job-application.php:24
+msgid "Apply for job"
+msgstr "Hae työpaikkaa"
+
+#: templates/job-application-url.php:18
+msgid "To apply for this job please visit the following URL:"
+msgstr "Hae paikkaa seuraavasta linkistä:"
+
+#: templates/job-application-email.php:18
+msgid "To apply for this job <strong>email your details to</strong> <a class=\"job_application_email\" href=\"mailto:%1$s%2$s\">%1$s</a>"
+msgstr "Hae työpaikkaa <strong>lähetä hakemuksesi osoitteeseen</strong> <a class=\"job_application_email\" href=\"mailto:%1$s%2$s\">%1$s</a>"
+
+#: templates/form-fields/uploaded-file-html.php:29
+#: templates/form-fields/uploaded-file-html.php:31
+msgid "remove"
+msgstr "poista"
+
+#: templates/form-fields/multiselect-field.php:20
+#: wp-job-manager-functions.php:791
+msgid "Select Some Options"
+msgstr "Valitse asetukset"
+
+#: templates/form-fields/multiselect-field.php:20
+#: wp-job-manager-functions.php:790
+msgid "No results match"
+msgstr "Ei sopivia hakutuloksia"
+
+#: templates/form-fields/file-field.php:45
+msgid "Maximum file size: %s."
+msgstr "Tiedoston suurin mahdollinen koko: %s"
+
+#: templates/content-single-job_listing.php:23
+msgid "This listing has expired."
+msgstr "Ilmoitus on vanhentunut."
+
+#: templates/content-single-job_listing-meta.php:44
+msgid "Applications have closed"
+msgstr "Hakemus sulkeutunut"
+
+#: templates/content-single-job_listing-meta.php:42
+msgid "This position has been filled"
+msgstr "Tämä paikka on täytetty"
+
+#: wp-job-manager-template.php:669 wp-job-manager-template.php:689
+msgid "Posted %s ago"
+msgstr "Julkaistu %s sitten"
+
+#: templates/content-no-jobs-found.php:22
+msgid "There are currently no vacancies."
+msgstr "Avoimia työpaikkoja ei ole tällä hetkellä."
+
+#: templates/content-no-jobs-found.php:20
+msgid "There are no listings matching your search."
+msgstr "Ei hakuasi vastaavia ilmoituksia."
+
+#: wp-job-manager-template.php:640
+msgid "Your email"
+msgstr "Sähköposti"
+
+#: templates/account-signin.php:59 templates/job-submit.php:43
+#: templates/job-submit.php:60
+msgid "(optional)"
+msgstr "(valinnainen)"
+
+#: wp-job-manager-template.php:615
+msgid "Username"
+msgstr "Käyttäjätunnus"
+
+#: templates/account-signin.php:48
+msgid "You must sign in to create a new listing."
+msgstr "Sinun täytyy kirjautua sisään luodaksesi uuden ilmoituksen."
+
+#: templates/account-signin.php:44
+msgid "optionally"
+msgstr "valinnainen"
+
+#: templates/account-signin.php:44
+msgid "If you don&rsquo;t have an account you can %screate one below by entering your email address/username. Your account details will be confirmed via email."
+msgstr "Jos sinulla ei ole käyttäjätunnuksia %svoit luoda uudet syöttämällä sähköpostiosoitteesi/käyttäjätunnuksesi. Käyttäjätiedot vahvistetaan sähköpostitse."
+
+#: templates/account-signin.php:40 templates/job-dashboard-login.php:20
+msgid "Sign in"
+msgstr "Kirjaudu sisään"
+
+#: templates/account-signin.php:38
+msgid "Have an account?"
+msgstr "Onko sinulla käyttäjätili?"
+
+#: templates/account-signin.php:28
+msgid "Sign out"
+msgstr "Kirjaudu ulos"
+
+#: templates/account-signin.php:25
+msgid "You are currently signed in as <strong>%s</strong>."
+msgstr "Olet kirjautunut sisään nimellä <strong>%s</strong>."
+
+#: templates/account-signin.php:21
+msgid "Your account"
+msgstr "Käyttäjätilisi"
+
+#: templates/job-preview.php:21
+msgid "Edit listing"
+msgstr "Muokkaa ilmoitusta."
+
+#: templates/job-preview.php:20
+msgid "Submit Listing"
+msgstr "Lähetä ilmoitus."
+
+#: includes/forms/class-wp-job-manager-form-submit-job.php:507
+msgid "You must be signed in to post a new listing."
+msgstr "Lisätäksesi uuden ilmoituksen sinun täytyy olla kirjautunut sisään."
+
+#: includes/forms/class-wp-job-manager-form-submit-job.php:473
+msgid "Please enter your email address."
+msgstr "Syötä sähköpostiosoite."
+
+#: includes/forms/class-wp-job-manager-form-submit-job.php:465
+msgid "Please enter a username."
+msgstr "Syötä käyttäjätunnus."
+
+#: includes/forms/class-wp-job-manager-form-submit-job.php:344
+msgid "Please enter a valid application email address or URL"
+msgstr "Anna oikea sähköpostiosoite tai URL-osoite."
+
+#: includes/forms/class-wp-job-manager-form-submit-job.php:334
+msgid "Please enter a valid application URL"
+msgstr "Anna oikea URL-osoite"
+
+#: includes/forms/class-wp-job-manager-form-submit-job.php:325
+msgid "Please enter a valid application email address"
+msgstr "Anna oikea sähköpostiosoite"
+
+#: includes/forms/class-wp-job-manager-form-submit-job.php:310
+#: wp-job-manager-functions.php:1002
+msgid "\"%s\" (filetype %s) needs to be one of the following file types: %s"
+msgstr "\"%s\" (tiedostotyyppi %s) täytyy olla, jokin seuraavista tiedostotyypeistä: %s"
+
+#: includes/forms/class-wp-job-manager-form-submit-job.php:294
+msgid "%s is invalid"
+msgstr "%s on virheellinen"
+
+#: includes/forms/class-wp-job-manager-form-submit-job.php:284
+msgid "%s is a required field"
+msgstr "%s on pakollinen kenttä"
+
+#: includes/forms/class-wp-job-manager-form-submit-job.php:248
+msgid "Logo"
+msgstr "Logo"
+
+#: includes/forms/class-wp-job-manager-form-submit-job.php:244
+msgid "@yourcompany"
+msgstr "@yrityksesi"
+
+#: includes/forms/class-wp-job-manager-form-submit-job.php:241
+msgid "Twitter username"
+msgstr "Twitter käyttäjätunnus"
+
+#: includes/forms/class-wp-job-manager-form-submit-job.php:237
+msgid "A link to a video about your company"
+msgstr "Linkki yritysvideoon"
+
+#: includes/forms/class-wp-job-manager-form-submit-job.php:234
+msgid "Video"
+msgstr "Video"
+
+#: includes/forms/class-wp-job-manager-form-submit-job.php:229
+msgid "Briefly describe your company"
+msgstr "Kuvaa yritystäsi lyhyesti"
+
+#: includes/forms/class-wp-job-manager-form-submit-job.php:226
+msgid "Tagline"
+msgstr "Iskulause"
+
+#: includes/forms/class-wp-job-manager-form-submit-job.php:219
+#: templates/content-single-job_listing-company.php:30
+msgid "Website"
+msgstr "Kotisivu"
+
+#: includes/forms/class-wp-job-manager-form-submit-job.php:215
+msgid "Enter the name of the company"
+msgstr "Yrityksen nimi"
+
+#: includes/forms/class-wp-job-manager-form-submit-job.php:212
+msgid "Company name"
+msgstr "Yrityksen nimi"
+
+#: includes/forms/class-wp-job-manager-form-submit-job.php:197
+msgid "Description"
+msgstr "Kuvaus"
+
+#: includes/forms/class-wp-job-manager-form-submit-job.php:172
+msgid "Leave this blank if the location is not important"
+msgstr "Jätä tämä tyhjäksi, jos sijainti ei ole oleellinen"
+
+#: includes/forms/class-wp-job-manager-form-submit-job.php:164
+msgid "Job Title"
+msgstr "Työnimike"
+
+#: includes/forms/class-wp-job-manager-form-submit-job.php:152
+msgid "Enter an email address or website URL"
+msgstr "Anna sähköpostiosoite tai kotisivun URL"
+
+#: includes/forms/class-wp-job-manager-form-submit-job.php:151
+msgid "Application email/URL"
+msgstr "Hakemuksen sähköposti/URL"
+
+#: includes/forms/class-wp-job-manager-form-submit-job.php:148
+#: includes/forms/class-wp-job-manager-form-submit-job.php:222
+msgid "http://"
+msgstr "http://"
+
+#: includes/forms/class-wp-job-manager-form-submit-job.php:147
+msgid "Application URL"
+msgstr "Hakemuksen URL"
+
+#: includes/forms/class-wp-job-manager-form-submit-job.php:144
+#: wp-job-manager-template.php:641
+msgid "you@yourdomain.com"
+msgstr "you@yourdomain.com"
+
+#: includes/forms/class-wp-job-manager-form-submit-job.php:143
+msgid "Application email"
+msgstr "Sähköpostihakemus"
+
+#: includes/forms/class-wp-job-manager-form-submit-job.php:75
+msgid "Done"
+msgstr "Valmis"
+
+#: includes/forms/class-wp-job-manager-form-submit-job.php:69
+#: includes/forms/class-wp-job-manager-form-submit-job.php:434
+#: templates/job-preview.php:22
+msgid "Preview"
+msgstr "Esikatselu"
+
+#: includes/forms/class-wp-job-manager-form-submit-job.php:63
+msgid "Submit Details"
+msgstr "Lähetä tiedot"
+
+#: includes/forms/class-wp-job-manager-form-edit-job.php:135
+msgid "View &rarr;"
+msgstr "Katso &rarr;"
+
+#: includes/forms/class-wp-job-manager-form-edit-job.php:135
+#: includes/forms/class-wp-job-manager-form-edit-job.php:138
+msgid "Your changes have been saved."
+msgstr "Tekemäsi muutokset on tallennettu."
+
+#: includes/forms/class-wp-job-manager-form-edit-job.php:106
+msgid "Save changes"
+msgstr "Tallenna muutokset"
+
+#: includes/forms/class-wp-job-manager-form-edit-job.php:67
+msgid "Invalid listing"
+msgstr "Virheellinen ilmoitus"
+
+#: includes/widgets/class-wp-job-manager-widget-featured-jobs.php:23
+#: includes/widgets/class-wp-job-manager-widget-featured-jobs.php:27
+msgid "Featured %s"
+msgstr "Korostettu %s"
+
+#: includes/widgets/class-wp-job-manager-widget-featured-jobs.php:21
+msgid "Display a list of featured listings on your site."
+msgstr "Näytä listaus korostetuista ilmoituksista sivuillasi."
+
+#: includes/widgets/class-wp-job-manager-widget-featured-jobs.php:36
+#: includes/widgets/class-wp-job-manager-widget-recent-jobs.php:46
+msgid "Number of listings to show"
+msgstr "Näytettävien listausten määrä"
+
+#: includes/widgets/class-wp-job-manager-widget-recent-jobs.php:33
+msgid "Keyword"
+msgstr "Hakusana"
+
+#: includes/widgets/class-wp-job-manager-widget-recent-jobs.php:23
+#: includes/widgets/class-wp-job-manager-widget-recent-jobs.php:27
+msgid "Recent %s"
+msgstr "Uudet %s"
+
+#: includes/widgets/class-wp-job-manager-widget-recent-jobs.php:21
+msgid "Display a list of recent listings on your site, optionally matching a keyword and location."
+msgstr "Näytä lista uusista ilmoituksista sivuillasi, mahdollisuus käyttää hakusanaa tai sijaintia."
+
+#: includes/class-wp-job-manager-shortcodes.php:326
+#: includes/class-wp-job-manager-shortcodes.php:364
+msgid "Load more listings"
+msgstr "Lataa lisää ilmoituksia"
+
+#: includes/class-wp-job-manager-shortcodes.php:219
+msgid "Date Posted"
+msgstr "Julkaisupäivä"
+
+#: includes/class-wp-job-manager-shortcodes.php:217
+#: includes/widgets/class-wp-job-manager-widget-featured-jobs.php:28
+#: includes/widgets/class-wp-job-manager-widget-recent-jobs.php:28
+msgid "Title"
+msgstr "Titteli"
+
+#: includes/class-wp-job-manager-shortcodes.php:128
+msgid "%s has been deleted"
+msgstr "%s on poistettu"
+
+#: includes/class-wp-job-manager-shortcodes.php:121
+msgid "%s has been marked as not filled"
+msgstr "%s on merkitty avoimeksi"
+
+#: includes/class-wp-job-manager-shortcodes.php:114
+msgid "This position is not filled"
+msgstr "Tätä paikkaa ei ole vielä täytetty"
+
+#: includes/class-wp-job-manager-shortcodes.php:109
+msgid "%s has been filled"
+msgstr "%s on täytetty"
+
+#: includes/class-wp-job-manager-shortcodes.php:103
+msgid "This position has already been filled"
+msgstr "Tämä paikka on jo täytetty"
+
+#: includes/class-wp-job-manager-shortcodes.php:96
+msgid "Invalid ID"
+msgstr "Virheellinen ID"
+
+#: includes/class-wp-job-manager-post-types.php:267
+msgid "Expired <span class=\"count\">(%s)</span>"
+msgid_plural "Expired <span class=\"count\">(%s)</span>"
+msgstr[0] "Vanhentunut <span class=\"count\">(%s)</span>"
+msgstr[1] "Vanhentunut <span class=\"count\">(%s)</span>"
+
+#: includes/class-wp-job-manager-post-types.php:261
+#: wp-job-manager-functions.php:256
+msgctxt "post status"
+msgid "Expired"
+msgstr "Vanhentunut"
+
+#: includes/class-wp-job-manager-post-types.php:236
+msgid "This is where you can create and manage %s."
+msgstr "Täältä voit luoda ja hallinnoida %s."
+
+#: includes/class-wp-job-manager-post-types.php:229
+msgid "No %s found in trash"
+msgstr "%s ei löytynyt roskakorista"
+
+#: includes/class-wp-job-manager-post-types.php:228
+msgid "No %s found"
+msgstr "%s ei löytynyt"
+
+#: includes/class-wp-job-manager-post-types.php:225
+#: includes/class-wp-job-manager-post-types.php:226
+msgid "View %s"
+msgstr "Näytä %s"
+
+#: includes/class-wp-job-manager-post-types.php:224
+msgid "New %s"
+msgstr "Uusi %s"
+
+#: includes/class-wp-job-manager-post-types.php:221
+msgid "Add %s"
+msgstr "Lisää %s"
+
+#: includes/class-wp-job-manager-post-types.php:220
+msgid "Add New"
+msgstr "Lisää Uusi"
+
+#: includes/admin/class-wp-job-manager-permalink-settings.php:81
+#: includes/class-wp-job-manager-post-types.php:641
+msgctxt "Job permalink - resave permalinks after changing this"
+msgid "job"
+msgstr "tyopaikka"
+
+#: includes/class-wp-job-manager-post-types.php:201
+msgctxt "Post type archive slug - resave permalinks after changing this"
+msgid "jobs"
+msgstr "tyopaikat"
+
+#: includes/class-wp-job-manager-post-types.php:198
+msgid "Jobs"
+msgstr "Työpaikat"
+
+#: includes/class-wp-job-manager-post-types.php:197
+msgid "Job"
+msgstr "Työpaikka"
+
+#: includes/admin/class-wp-job-manager-permalink-settings.php:99
+#: includes/class-wp-job-manager-post-types.php:643
+msgctxt "Job type slug - resave permalinks after changing this"
+msgid "job-type"
+msgstr "tyontyyppi"
+
+#: includes/class-wp-job-manager-post-types.php:148
+msgid "Job types"
+msgstr "Työntyypit"
+
+#: includes/class-wp-job-manager-post-types.php:147
+#: includes/forms/class-wp-job-manager-form-submit-job.php:179
+msgid "Job type"
+msgstr "Työntyyppi"
+
+#: includes/class-wp-job-manager-post-types.php:130
+#: includes/class-wp-job-manager-post-types.php:178
+msgid "New %s Name"
+msgstr "Uusi %s Nimi"
+
+#: includes/class-wp-job-manager-post-types.php:129
+#: includes/class-wp-job-manager-post-types.php:177
+msgid "Add New %s"
+msgstr "Lisää Uusi %s"
+
+#: includes/class-wp-job-manager-post-types.php:128
+#: includes/class-wp-job-manager-post-types.php:176
+msgid "Update %s"
+msgstr "Päivitä %s"
+
+#: includes/class-wp-job-manager-post-types.php:127
+#: includes/class-wp-job-manager-post-types.php:175
+#: includes/class-wp-job-manager-post-types.php:223
+msgid "Edit %s"
+msgstr "Muokkaa %s"
+
+#: includes/class-wp-job-manager-post-types.php:126
+#: includes/class-wp-job-manager-post-types.php:174
+msgid "Parent %s:"
+msgstr "Vanhempi %s"
+
+#: includes/class-wp-job-manager-post-types.php:125
+#: includes/class-wp-job-manager-post-types.php:173
+#: includes/class-wp-job-manager-post-types.php:230
+msgid "Parent %s"
+msgstr "Vanhempi %s"
+
+#: includes/class-wp-job-manager-post-types.php:124
+#: includes/class-wp-job-manager-post-types.php:172
+#: includes/class-wp-job-manager-post-types.php:219
+msgid "All %s"
+msgstr "Kaikki %s"
+
+#: includes/class-wp-job-manager-post-types.php:123
+#: includes/class-wp-job-manager-post-types.php:171
+#: includes/class-wp-job-manager-post-types.php:227
+msgid "Search %s"
+msgstr "Etsi %s"
+
+#: includes/admin/class-wp-job-manager-permalink-settings.php:90
+#: includes/class-wp-job-manager-post-types.php:642
+msgctxt "Job category slug - resave permalinks after changing this"
+msgid "job-category"
+msgstr "kategoria"
+
+#: includes/class-wp-job-manager-post-types.php:99
+msgid "Job categories"
+msgstr "Kategoriat"
+
+#: includes/class-wp-job-manager-post-types.php:98
+#: includes/forms/class-wp-job-manager-form-submit-job.php:188
+msgid "Job category"
+msgstr "Kategoria"
+
+#: includes/class-wp-job-manager-install.php:65
+msgid "Employer"
+msgstr "Työnantaja"
+
+#: includes/class-wp-job-manager-geocode.php:231
+#: includes/class-wp-job-manager-geocode.php:235
+#: includes/class-wp-job-manager-geocode.php:239
+msgid "Geocoding error"
+msgstr "Geocoding error"
+
+#: includes/class-wp-job-manager-geocode.php:225
+msgid "Query limit reached"
+msgstr "Tiedustelun sallittu raja saavutettu."
+
+#: includes/class-wp-job-manager-geocode.php:221
+msgid "No results found"
+msgstr "Tuloksia ei löytynyt"
+
+#: includes/admin/class-wp-job-manager-writepanels.php:496
+msgid "Enter the ID of the user, or leave blank if submitted by a guest."
+msgstr "Syötä käyttäjän ID tai jätä tyhjäksi jos ilmoituksen on jättänyt vieras."
+
+#: includes/admin/class-wp-job-manager-writepanels.php:492
+msgid "Change"
+msgstr "Vaihda"
+
+#: includes/admin/class-wp-job-manager-writepanels.php:490
+msgid "Guest User"
+msgstr "Vieras käyttäjä"
+
+#: includes/admin/class-wp-job-manager-writepanels.php:264
+msgid "Add file"
+msgstr "Lisää tiedosto"
+
+#: includes/admin/class-wp-job-manager-writepanels.php:258
+#: includes/admin/class-wp-job-manager-writepanels.php:261
+#: includes/admin/class-wp-job-manager-writepanels.php:264
+msgid "Upload"
+msgstr "Lataa palvelimeen"
+
+#: includes/admin/class-wp-job-manager-writepanels.php:258
+#: includes/admin/class-wp-job-manager-writepanels.php:261
+#: includes/admin/class-wp-job-manager-writepanels.php:264
+msgid "Use file"
+msgstr "Käytä tiedostoa"
+
+#: includes/admin/class-wp-job-manager-writepanels.php:161
+msgid "%s Data"
+msgstr "%s Data"
+
+#: includes/admin/class-wp-job-manager-writepanels.php:119
+msgid "Posted by"
+msgstr "Julkaistu"
+
+#: includes/admin/class-wp-job-manager-writepanels.php:109
+msgid "Listing Expiry Date"
+msgstr "Ilmoituksen vanhenemispäivämäärä"
+
+#: includes/admin/class-wp-job-manager-writepanels.php:104
+msgid "Featured listings will be sticky during searches, and can be styled differently."
+msgstr "Korostettu ilmoitus näkyy hakutulosten edellä ja se pystytään tyylittelemään erikseen."
+
+#: includes/admin/class-wp-job-manager-writepanels.php:102
+msgid "Featured Listing"
+msgstr "Korostettu ilmoitus"
+
+#: includes/admin/class-wp-job-manager-writepanels.php:97
+msgid "Filled listings will no longer accept applications."
+msgstr "Täytetyt ilmoitukset eivät enää hyväksy hakemuksia."
+
+#: includes/admin/class-wp-job-manager-writepanels.php:94
+msgid "Position Filled"
+msgstr "Paikka täytetty"
+
+#: includes/admin/class-wp-job-manager-writepanels.php:89
+msgid "URL to the company video"
+msgstr "Yritysvideon URL"
+
+#: includes/admin/class-wp-job-manager-writepanels.php:88
+msgid "Company Video"
+msgstr "Yritysvideo"
+
+#: includes/class-wp-job-manager-post-types.php:231
+msgid "Company Logo"
+msgstr "Yrityksen logo"
+
+#: includes/admin/class-wp-job-manager-writepanels.php:83
+msgid "Company Twitter"
+msgstr "Yrityksen Twitter"
+
+#: includes/admin/class-wp-job-manager-writepanels.php:79
+msgid "Brief description about the company"
+msgstr "Lyhyt yrityskuvaus"
+
+#: includes/admin/class-wp-job-manager-writepanels.php:78
+msgid "Company Tagline"
+msgstr "Yrityksen mainoslause"
+
+#: includes/admin/class-wp-job-manager-writepanels.php:73
+msgid "Company Website"
+msgstr "Yrityksen verkkosivut"
+
+#: includes/admin/class-wp-job-manager-writepanels.php:68
+msgid "Company Name"
+msgstr "Yrityksen nimi"
+
+#: includes/admin/class-wp-job-manager-writepanels.php:63
+msgid "This field is required for the \"application\" area to appear beneath the listing."
+msgstr "Tämä tietokenttä on pakollinen, jotta hakemus näkyy listauksen alla."
+
+#: includes/admin/class-wp-job-manager-writepanels.php:62
+msgid "URL or email which applicants use to apply"
+msgstr "URL- tai sähköpostiosoite jota hakijat voivat käyttää"
+
+#: includes/admin/class-wp-job-manager-writepanels.php:61
+msgid "Application Email or URL"
+msgstr "Hakemuksen sähkoposti tai URL"
+
+#: includes/admin/class-wp-job-manager-writepanels.php:57
+msgid "Leave this blank if the location is not important."
+msgstr "Jätä tyhjäksi jos sijainti ei ole tärkeä"
+
+#: includes/admin/class-wp-job-manager-writepanels.php:56
+#: includes/forms/class-wp-job-manager-form-submit-job.php:175
+msgid "e.g. \"London\""
+msgstr "esim. \"Helsinki\""
+
+#: includes/admin/class-wp-job-manager-setup.php:265
+msgid "Help other users on the forums"
+msgstr "Auta toisia käyttäjiä keskutelufoorumeilla"
+
+#: includes/admin/class-wp-job-manager-setup.php:264
+msgid "Contribute code or report a bug"
+msgstr "Ehdota ohjelmakoodia tai ilmoita ohjelmointivirheestä"
+
+#: includes/admin/class-wp-job-manager-setup.php:263
+msgid "Contribute a localization"
+msgstr "Avusta lokalisoinnissa"
+
+#: includes/admin/class-wp-job-manager-setup.php:262
+msgid "Leave a positive review"
+msgstr "Jätä positiivinen arvostelu"
+
+#: includes/admin/class-wp-job-manager-setup.php:260
+msgid "There are many ways to support open-source projects such as WP Job Manager, for example code contribution, translation, or even telling your friends how awesome the plugin (hopefully) is. Thanks in advance for your support - it is much appreciated!"
+msgstr "On monia tapoja, kuinka voit tukea avoimen lähdekoodin projekteja kuten WP Job Manager. Voit esimerkiksi ehdottaa ohjelmakoodia, kielikäännöksiä tai jopa kertoa kavereillesi kuinka mahtava lisäosa (toivottavasti) on. Kiitos paljon tuestasi, olemme kiitollisia."
+
+#: includes/admin/class-wp-job-manager-setup.php:259
+msgid "Support the Ongoing Development of this Plugin"
+msgstr "Tue tämän lisäosan jatkuvaa kehitystä"
+
+#: includes/admin/class-wp-job-manager-setup.php:256
+msgid "And don't forget, if you need any more help using <em>WP Job Manager</em> you can consult the %1$sdocumentation%2$s or %3$spost on the forums%2$s!"
+msgstr "Älä unohda. Jos tarvitset apua  <em>WP Job Manager</em> käytössä voit lukea siihen liittyviä %1$sdocumentation%2$s tai %3$spost on the forums%2$s!"
+
+#: includes/admin/class-wp-job-manager-setup.php:252
+msgid "Find out more about the front-end job dashboard"
+msgstr "Lisätietoa sivuston ilmoitusten ohjausnäkymästä"
+
+#: includes/admin/class-wp-job-manager-setup.php:250
+msgid "View the job dashboard"
+msgstr "Katso ilmoitusten ohjausnäkymää"
+
+#: includes/admin/class-wp-job-manager-setup.php:246
+msgid "Add the [jobs] shortcode to a page to list jobs"
+msgstr "Lisää \"[jobs]\" -shortcode sivulle, johon haluat työpaikkalistaukset"
+
+#: includes/admin/class-wp-job-manager-setup.php:244
+msgid "View submitted job listings"
+msgstr "Katso jätetyt ilmoitukset"
+
+#: includes/admin/class-wp-job-manager-setup.php:240
+msgid "Find out more about the front-end job submission form"
+msgstr "Lue lisää käyttäjäpuolen työpaikkailmoituslomakkeesta"
+
+#: includes/admin/class-wp-job-manager-setup.php:238
+msgid "Add a job via the front-end"
+msgstr "Lisää ilmoitus käyttäjäpuolen kautta"
+
+#: includes/admin/class-wp-job-manager-setup.php:235
+msgid "Add a job via the back-end"
+msgstr "Lisää ilmoitus hallintapuolen kautta."
+
+#: includes/admin/class-wp-job-manager-setup.php:234
+msgid "Tweak the plugin settings"
+msgstr "Muokkaa lisäosan asetuksia"
+
+#: includes/admin/class-wp-job-manager-setup.php:231
+msgid "Looks like you're all set to start using the plugin. In case you're wondering where to go next:"
+msgstr "Näyttää siltä, että olet valmis aloittamaan lisäosan käytön. Jos mietit, mitä tehdä seuraavaksi:"
+
+#: includes/admin/class-wp-job-manager-setup.php:229
+msgid "All Done!"
+msgstr "Valmis!"
+
+#: includes/admin/class-wp-job-manager-setup.php:219
+msgid "Skip this step"
+msgstr "Ohita tämä vaihe"
+
+#: includes/admin/class-wp-job-manager-setup.php:211
+msgid "This page allows users to browse, search, and filter job listings on the front-end of your site."
+msgstr "Tällä sivulla käyttäjät voivat selata, etsiä ja suodattaa illmoituksia."
+
+#: includes/admin/class-wp-job-manager-setup.php:210
+msgctxt "Default page title (wizard)"
+msgid "Jobs"
+msgstr "Työpaikkoja"
+
+#: includes/admin/class-wp-job-manager-setup.php:204
+msgid "If you plan on managing all listings from the admin dashboard you can skip creating this page."
+msgstr "Jos aiot hallita kaikkia listauksia ylläpitäjän hallintapuolennäkymästä, tätä sivua ei tarvitse luoda."
+
+#: includes/admin/class-wp-job-manager-setup.php:202
+msgid "This page allows employers to manage and edit their own jobs from the front-end."
+msgstr "Tällä sivulla työnantajan on mahdollista hallita ja muokata omia ilmoitusiaan suoraan sivuston käyttäjäpuolelta. "
+
+#: includes/admin/class-wp-job-manager-setup.php:200
+msgctxt "Default page title (wizard)"
+msgid "Job Dashboard"
+msgstr "Ohjausnäkymä"
+
+#: includes/admin/class-wp-job-manager-setup.php:194
+msgid "If you do not want to accept submissions from users in this way (for example you just want to post jobs from the admin dashboard) you can skip creating this page."
+msgstr "Jos et halua hyväksyä hakemuksia käyttäjiltä tällä tavalla ( esim. haluat vain lisätä työpaikkoja käyttämällä ylläpitäjän hallintopuolen ohjausnäkymää ) voit ohittaa tämän sivun luonnin."
+
+#: includes/admin/class-wp-job-manager-setup.php:192
+msgid "This page allows employers to post jobs to your website from the front-end."
+msgstr "Tällä sivulla työnantaja voi lisätä ilmoituksen sivustolle suoraan käyttäjäpuolelta."
+
+#: includes/admin/class-wp-job-manager-setup.php:190
+msgctxt "Default page title (wizard)"
+msgid "Post a Job"
+msgstr "Luo ilmoitus"
+
+#: includes/admin/class-wp-job-manager-setup.php:184
+msgid "Content Shortcode"
+msgstr "Sisältö Shortcode"
+
+#: includes/admin/class-wp-job-manager-setup.php:183
+msgid "Page Description"
+msgstr "Kuvaus sivusta"
+
+#: includes/admin/class-wp-job-manager-setup.php:182
+msgid "Page Title"
+msgstr "Sivun otsikko"
+
+#: includes/admin/class-wp-job-manager-setup.php:174
+msgid "<em>WP Job Manager</em> includes %1$sshortcodes%2$s which can be used within your %3$spages%2$s to output content. These can be created for you below. For more information on the job shortcodes view the %4$sshortcode documentation%2$s."
+msgstr "<em>WP Job Manager</em> sisältää %1$sshortcodes%2$s, joita on mahdollista käyttää %3$spages%2$s sisällön näyttämiseen. Nämä pystytään luomaan sinulle tämän alapuolella.  Lisätietoja löydät %4$sshortcode dokumentaatio%2$s."
+
+#: includes/admin/class-wp-job-manager-setup.php:172
+msgid "Page Setup"
+msgstr "Sivun asetukset"
+
+#: includes/admin/class-wp-job-manager-setup.php:166
+msgid "Skip setup. I will setup the plugin manually"
+msgstr "Ohita asennus. Asennan lisäosan manuaalisesti."
+
+#: includes/admin/class-wp-job-manager-setup.php:165
+msgid "Continue to page setup"
+msgstr "Jatka sivun asetuksiin"
+
+#: includes/admin/class-wp-job-manager-setup.php:162
+msgid "If you want to skip the wizard and setup the pages and shortcodes yourself manually, the process is still relatively simple. Refer to the %sdocumentation%s for help."
+msgstr "Jos haluat ohittaa ohjatun asennuksen ja asentaa sekä sivut että shortcodet itse, niin se on suhteellisen yksinkertaista. Katso lisäohjeet %sdokumentaatiosta%s."
+
+#: includes/admin/class-wp-job-manager-setup.php:161
+msgid "This setup wizard will help you get started by creating the pages for job submission, job management, and listing your jobs."
+msgstr "Tämä ohjattu asennus auttaa sinua luomalla sivut työhakemuksille, työhallinnalle ja työlistaukselle. "
+
+#: includes/admin/class-wp-job-manager-setup.php:160
+msgid "Thanks for installing <em>WP Job Manager</em>!"
+msgstr "Kiitos, että asensit  <em>WP Job Manager</em>!"
+
+#: includes/admin/class-wp-job-manager-setup.php:158
+msgid "Setup Wizard Introduction"
+msgstr "Ohjatun asennuksen esittely"
+
+#: includes/admin/class-wp-job-manager-setup.php:153
+msgid "3. Done"
+msgstr "3. Valmis"
+
+#: includes/admin/class-wp-job-manager-setup.php:152
+msgid "2. Page Setup"
+msgstr "2. Sivu asetukset"
+
+#: includes/admin/class-wp-job-manager-setup.php:151
+msgid "1. Introduction"
+msgstr "1. Esittely"
+
+#: includes/admin/class-wp-job-manager-setup.php:148
+msgid "WP Job Manager Setup"
+msgstr "WP Job Managerin asetukset"
+
+#: includes/admin/class-wp-job-manager-setup.php:51
+msgid "Setup"
+msgstr "Asetus"
+
+#: includes/admin/class-wp-job-manager-settings.php:466
+msgid "Save Changes"
+msgstr "Tallenna muutokset"
+
+#: includes/admin/class-wp-job-manager-settings.php:420
+msgid "Select a page&hellip;"
+msgstr "Valitse sivu&hellip;"
+
+#: includes/admin/class-wp-job-manager-settings.php:415
+msgid "--no page--"
+msgstr "--ei sivua--"
+
+#: includes/admin/class-wp-job-manager-settings.php:339
+msgid "Settings successfully saved"
+msgstr "Asetukset tallennettu onnistuneesti"
+
+#: includes/admin/class-wp-job-manager-settings.php:292
+msgid "Job Listings Page"
+msgstr "Ilmoitusten listaussivu"
+
+#: includes/admin/class-wp-job-manager-settings.php:285
+msgid "Job Dashboard Page"
+msgstr "Työpaikkojenhallintasivu"
+
+#: includes/admin/class-wp-job-manager-settings.php:278
+msgid "Submit Job Form Page"
+msgstr "Työpaikan lisäyslomakesivu"
+
+#: includes/admin/class-wp-job-manager-settings.php:273
+msgid "Pages"
+msgstr "Sivut"
+
+#: includes/admin/class-wp-job-manager-settings.php:267
+msgid "Website URLs only"
+msgstr "Ainoastaan verkkosivujen URL-osoitteet"
+
+#: includes/admin/class-wp-job-manager-settings.php:266
+msgid "Email addresses only"
+msgstr "Vain sähköpostiosoitteet"
+
+#: includes/admin/class-wp-job-manager-settings.php:265
+msgid "Email address or website URL"
+msgstr "Sähköposti tai URL-osoitteet"
+
+#: includes/admin/class-wp-job-manager-settings.php:261
+msgid "Application Method"
+msgstr "Hakutapa"
+
+#: includes/admin/class-wp-job-manager-settings.php:254
+msgid "Listing Duration"
+msgstr "Ilmoituksen kesto"
+
+#: includes/admin/class-wp-job-manager-settings.php:245
+msgid "Allow Pending Edits"
+msgstr "Salli muutokset odottaessa."
+
+#: includes/admin/class-wp-job-manager-settings.php:236
+msgid "Moderate New Listings"
+msgstr "Tarkasta uusi ilmoitus"
+
+#: includes/admin/class-wp-job-manager-settings.php:228
+msgid "Account Role"
+msgstr "Tilin rooli"
+
+#: includes/admin/class-wp-job-manager-settings.php:210
+msgid "Account Username"
+msgstr "Käyttäjätunnus"
+
+#: includes/admin/class-wp-job-manager-settings.php:201
+msgid "Account Creation"
+msgstr "Käyttäjätilin luonti"
+
+#: includes/admin/class-wp-job-manager-settings.php:192
+msgid "Account Required"
+msgstr "Käyttäjätili pakollinen"
+
+#: includes/admin/class-wp-job-manager-settings.php:187
+msgid "Job Submission"
+msgstr "Ilmoituksen jättö"
+
+#: includes/admin/class-wp-job-manager-settings.php:145
+msgid "Jobs will be shown if within ALL selected categories"
+msgstr "Ilmoitus näytetään jos se on kaikissa valituissa kategorioissa."
+
+#: includes/admin/class-wp-job-manager-settings.php:144
+msgid "Jobs will be shown if within ANY selected category"
+msgstr "Työt näytetään jos se on, jossain valitussa kategoriassa."
+
+#: includes/admin/class-wp-job-manager-settings.php:140
+msgid "Category Filter Type"
+msgstr "Kategoriafiltterityyppi"
+
+#: includes/admin/class-wp-job-manager-settings.php:131
+msgid "Multi-select Categories"
+msgstr "Kategoria monivalinta"
+
+#: includes/admin/class-wp-job-manager-settings.php:96
+msgid "Hide filled positions"
+msgstr "Piilota täytetyt tehtävät"
+
+#: includes/admin/class-wp-job-manager-settings.php:95
+msgid "Filled Positions"
+msgstr "Täytetyt tehtävät"
+
+#: includes/admin/class-wp-job-manager-settings.php:88
+msgid "Listings Per Page"
+msgstr "Ilmoitusta per sivu"
+
+#: includes/admin/class-wp-job-manager-settings.php:82
+#: includes/class-wp-job-manager-post-types.php:218
+#: includes/class-wp-job-manager-post-types.php:294
+msgid "Job Listings"
+msgstr "Ilmoitukset"
+
+#: includes/admin/class-wp-job-manager-cpt.php:501
+#: templates/job-dashboard.php:73
+msgid "Delete"
+msgstr "Poista"
+
+#: includes/admin/class-wp-job-manager-cpt.php:494
+#: includes/class-wp-job-manager-post-types.php:222
+#: templates/job-dashboard.php:50 templates/job-dashboard.php:68
+msgid "Edit"
+msgstr "Muokkaa"
+
+#: includes/admin/class-wp-job-manager-cpt.php:487
+#: includes/admin/class-wp-job-manager-writepanels.php:258
+#: includes/admin/class-wp-job-manager-writepanels.php:261
+#: includes/admin/class-wp-job-manager-writepanels.php:264
+msgid "View"
+msgstr "Näytä"
+
+#: includes/admin/class-wp-job-manager-cpt.php:479
+msgid "Approve"
+msgstr "Hyväksy"
+
+#: includes/admin/class-wp-job-manager-cpt.php:461
+msgid "by %s"
+msgstr "by %s"
+
+#: includes/admin/class-wp-job-manager-cpt.php:461
+msgid "by a guest"
+msgstr "by a guest"
+
+#: includes/admin/class-wp-job-manager-cpt.php:460
+#: includes/admin/class-wp-job-manager-cpt.php:465
+msgid "M j, Y"
+msgstr "M j, Y"
+
+#: includes/admin/class-wp-job-manager-cpt.php:431
+msgid "ID: %d"
+msgstr "ID: %d"
+
+#: includes/admin/class-wp-job-manager-cpt.php:367
+msgid "Actions"
+msgstr "Actions"
+
+#: includes/admin/class-wp-job-manager-cpt.php:366
+#: includes/class-wp-job-manager-shortcodes.php:218
+msgid "Filled?"
+msgstr "Täytetty?"
+
+#: includes/admin/class-wp-job-manager-cpt.php:365
+msgid "Featured?"
+msgstr "Featured?"
+
+#: includes/admin/class-wp-job-manager-cpt.php:364
+#: includes/admin/class-wp-job-manager-settings.php:122
+msgid "Categories"
+msgstr "Kategorioita"
+
+#: includes/admin/class-wp-job-manager-cpt.php:363
+msgid "Expires"
+msgstr "Vanhentuu"
+
+#: includes/admin/class-wp-job-manager-cpt.php:362
+msgid "Posted"
+msgstr "Julkaistu"
+
+#: includes/admin/class-wp-job-manager-cpt.php:361
+msgid "Status"
+msgstr "Status"
+
+#: includes/admin/class-wp-job-manager-cpt.php:360
+#: includes/admin/class-wp-job-manager-writepanels.php:55
+#: includes/forms/class-wp-job-manager-form-submit-job.php:171
+#: includes/widgets/class-wp-job-manager-widget-recent-jobs.php:38
+#: templates/job-filters.php:35 templates/job-filters.php:36
+msgid "Location"
+msgstr "Sijainti"
+
+#: includes/admin/class-wp-job-manager-cpt.php:359
+msgid "Type"
+msgstr "Tyyppi"
+
+#: includes/admin/class-wp-job-manager-cpt.php:339
+msgid "%s draft updated. <a target=\"_blank\" href=\"%s\">Preview</a>"
+msgstr "%s luonnos päivitetty. <a target=\"_blank\" href=\"%s\">Esikatsele</a>"
+
+#: includes/admin/class-wp-job-manager-cpt.php:338
+msgid "M j, Y @ G:i"
+msgstr "M j, Y @ G:i"
+
+#: includes/admin/class-wp-job-manager-cpt.php:337
+msgid "%s scheduled for: <strong>%1$s</strong>. <a target=\"_blank\" href=\"%2$s\">Preview</a>"
+msgstr "%s ajoitettu: <strong>%1$s</strong>. <a target=\"_blank\" href=\"%2$s\">Esikatsele</a>"
+
+#: includes/admin/class-wp-job-manager-cpt.php:336
+msgid "%s submitted. <a target=\"_blank\" href=\"%s\">Preview</a>"
+msgstr "%s jätetty. <a target=\"_blank\" href=\"%s\">Esikatsele</a>"
+
+#: includes/admin/class-wp-job-manager-cpt.php:335
+msgid "%s saved."
+msgstr "%s tallennettu."
+
+#: includes/admin/class-wp-job-manager-cpt.php:334
+msgid "%s published. <a href=\"%s\">View</a>"
+msgstr "%s julkaistu. <a href=\"%s\">Katso</a>"
+
+#: includes/admin/class-wp-job-manager-cpt.php:333
+msgid "%s restored to revision from %s"
+msgstr "%s palautettu revisiosta %s"
+
+#: includes/admin/class-wp-job-manager-cpt.php:332
+msgid "%s updated."
+msgstr "%s päivitetty."
+
+#: includes/admin/class-wp-job-manager-cpt.php:331
+msgid "Custom field deleted."
+msgstr "Custom field deleted."
+
+#: includes/admin/class-wp-job-manager-cpt.php:330
+msgid "Custom field updated."
+msgstr "Custom field updated."
+
+#: includes/admin/class-wp-job-manager-cpt.php:329
+msgid "%s updated. <a href=\"%s\">View</a>"
+msgstr "%s päivitetty. <a href=\"%s\">Katso</a>"
+
+#: includes/admin/class-wp-job-manager-cpt.php:314
+#: includes/admin/class-wp-job-manager-cpt.php:358
+msgid "Position"
+msgstr "Tehtävä"
+
+#: includes/admin/class-wp-job-manager-cpt.php:298
+msgid "Select category"
+msgstr "Valitse kategoria"
+
+#: includes/admin/class-wp-job-manager-cpt.php:77
+msgid "%s expired"
+msgstr "%s vanhentunut"
+
+#: includes/admin/class-wp-job-manager-cpt.php:72
+msgid "%s approved"
+msgstr "%s hyväksytty"
+
+#: includes/admin/class-wp-job-manager-cpt.php:76
+msgid "Expire %s"
+msgstr "Sulje %s"
+
+#: includes/admin/class-wp-job-manager-cpt.php:71
+msgid "Approve %s"
+msgstr "Hyväksy %s"
+
+#: includes/admin/class-wp-job-manager-admin.php:113
+msgid "Add-ons"
+msgstr "Lisäosat"
+
+#: includes/admin/class-wp-job-manager-admin.php:110
+msgid "Settings"
+msgstr "Asetukset"
+
+#: includes/admin/class-wp-job-manager-addons.php:84
+msgid "Check out the core add-on bundle &rarr;"
+msgstr "Tutustu lisäosapakettiin &rarr;"
+
+#: includes/admin/class-wp-job-manager-addons.php:84
+msgid "Do you need multiple add-ons?"
+msgstr "Tarvitsetko useita lisäosia?"
+
+#: includes/admin/class-wp-job-manager-addons.php:82
+#: includes/admin/class-wp-job-manager-admin.php:113
+msgid "WP Job Manager Add-ons"
+msgstr "WP Job Manager Lisäosat"

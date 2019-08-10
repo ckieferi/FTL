@@ -1,0 +1,1434 @@
+# Translation of Plugins - WP Job Manager - Stable (latest release) in Norwegian (Bokmål)
+# This file is distributed under the same license as the Plugins - WP Job Manager - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2017-06-12 10:41:30+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: nb_NO\n"
+"Project-Id-Version: Plugins - WP Job Manager - Stable (latest release)\n"
+
+#: templates/job-submit.php:13
+msgid "Create A New Job"
+msgstr "Opprett ny stilling"
+
+#: templates/job-submit.php:13
+msgid "You are editing an existing job. %s"
+msgstr "Du redigerer nå en eksisterende stilling. %s"
+
+#: includes/forms/class-wp-job-manager-form-submit-job.php:182
+msgid "Choose job type&hellip;"
+msgstr "Velg stillingstype&hellip;"
+
+#: includes/admin/class-wp-job-manager-settings.php:162
+msgid "Google requires an API key to retrieve location information for job listings. Acquire an API key from the <a href=\"%s\">Google Maps API developer site</a>."
+msgstr "Google krever en API-nøkkel for å hente stedsdate for utlysninger. Hent en API-nøkkel fra <a href=\"%s\">Google Maps API developer site</a>."
+
+#: includes/admin/class-wp-job-manager-settings.php:161
+msgid "Google Maps API Key"
+msgstr "Google Maps API-nøkkel"
+
+#: includes/admin/class-wp-job-manager-settings.php:95
+msgid "Hide expired listing content in single job listing (singular)"
+msgstr "Skjul utgått utlysningsinnhold i en enkelt stillingsutlysning (entall)"
+
+#: includes/admin/class-wp-job-manager-settings.php:94
+msgid "Hide Expired Listings Content"
+msgstr "Skjul innhold i utgåtte stillinger"
+
+#: includes/admin/class-wp-job-manager-settings.php:87
+msgid "If enabled, expired job listing is not searchable."
+msgstr "Hvis aktivert vil ikke utgåtte stillinger lengre være søkbare."
+
+#: includes/admin/class-wp-job-manager-settings.php:86
+msgid "Hide expired listings in job archive/search"
+msgstr "Skjul utgåtte stillinger i stillingsarkiv/søk"
+
+#: includes/admin/class-wp-job-manager-settings.php:85
+msgid "Hide Expired Listings"
+msgstr "Skjul utgåtte utlysninger"
+
+#: wp-job-manager-template.php:298
+msgid "Posted on "
+msgstr "Publisert den"
+
+#: includes/admin/class-wp-job-manager-settings.php:145
+msgid "Choose whether to enable types. Types must be setup by an admin to allow users to choose them during submission."
+msgstr "Velg om du vil aktivere typer. Typer må være satt opp av en administrator for at brukere skal kunne velge dem ved stillingsoppretelse."
+
+#: includes/admin/class-wp-job-manager-settings.php:144
+msgid "Enable types for listings"
+msgstr "Aktiver typer for utlistinger"
+
+#: includes/admin/class-wp-job-manager-settings.php:143
+msgid "Types"
+msgstr "Typer"
+
+#: includes/admin/class-wp-job-manager-settings.php:137
+msgid "Default date format as defined in Setttings"
+msgstr "Standard datoformat, som definert i innstillinger"
+
+#: includes/admin/class-wp-job-manager-settings.php:136
+msgid "Relative to the current date (e.g., 1 day, 1 week, 1 month ago)"
+msgstr "Relativ til dagens dato (f.eks. 1 dag, 1 uke eller 1 måned siden)"
+
+#: includes/admin/class-wp-job-manager-settings.php:133
+msgid "Choose how you want the published date for jobs to be displayed on the front-end."
+msgstr "Velg hvordan du ønsker å vise publiseringsdatoen for stillinger på front-end."
+
+#: includes/admin/class-wp-job-manager-settings.php:132
+msgid "Date Format"
+msgstr "Datoformat"
+
+#: includes/class-wp-job-manager-ajax.php:168
+msgid "Search completed. Found %d matching record."
+msgid_plural "Search completed. Found %d matching records."
+msgstr[0] "Søk utført. Fant %d opplisting."
+msgstr[1] "Søk utført. Fant %d opplistinger."
+
+#: includes/admin/class-wp-job-manager-writepanels.php:192
+msgid "Most Used"
+msgstr "Mest brukt"
+
+#: includes/admin/class-wp-job-manager-settings.php:154
+msgid "If enabled each job can have more than one type. The metabox on the post editor and the select box on the frontend job submission form are changed by this."
+msgstr "Hvis aktivert kan hver stilling ha mer enn én type. Metaboksen i teksteditoren og valgboksen i skjemaet for opprettelse av stilling på front end vil endres av dette."
+
+#: includes/admin/class-wp-job-manager-settings.php:153
+msgid "Enable multiple types for listings"
+msgstr "Aktiver flere typer for utlistinger"
+
+#: includes/admin/class-wp-job-manager-settings.php:152
+msgid "Multi-select Listing Types"
+msgstr "Flervalg utlysningstyper"
+
+#: includes/admin/class-wp-job-manager-settings.php:122
+msgid "Determines the logic used to display jobs when selecting multiple categories."
+msgstr "Velger hvilken logikk brukt for å vise stillinger når man velger flere kategorier."
+
+#: templates/job-dashboard.php:41
+msgid "Duplicate"
+msgstr "Duplikat"
+
+#: includes/class-wp-job-manager-shortcodes.php:133
+#: includes/class-wp-job-manager-shortcodes.php:146
+msgid "Missing submission page."
+msgstr "Manglende innsendelsesside."
+
+#. Author of the plugin/theme
+msgid "Automattic"
+msgstr "Automattic"
+
+#: includes/class-wp-job-manager-post-types.php:229
+msgid "Use as company logo"
+msgstr "Bruk som firmalogo"
+
+#: includes/class-wp-job-manager-post-types.php:228
+msgid "Remove company logo"
+msgstr "Fjern firmalogo"
+
+#: includes/class-wp-job-manager-post-types.php:227
+msgid "Set company logo"
+msgstr "Velg fimalogo"
+
+#. translators: date format placeholder, see https://secure.php.net/date
+#: includes/admin/class-wp-job-manager-writepanels.php:113
+msgctxt "Date format placeholder."
+msgid "yyyy-mm-dd"
+msgstr "yyyy-mm-dd"
+
+#. translators: jQuery date format, see
+#. http://api.jqueryui.com/datepicker/#utility-formatDate
+#: includes/admin/class-wp-job-manager-admin.php:68
+msgctxt "Date format for jQuery datepicker."
+msgid "yy-mm-dd"
+msgstr "yy-mm-dd"
+
+#: includes/class-wp-job-manager-shortcodes.php:220
+msgid "Listing Expires"
+msgstr "Utlysning utløper"
+
+#: includes/class-wp-job-manager-post-types.php:270
+msgid "Preview <span class=\"count\">(%s)</span>"
+msgid_plural "Preview <span class=\"count\">(%s)</span>"
+msgstr[0] "Forhåndsvis <span class=\"count\">(%s)</span>"
+msgstr[1] "Forhåndsvis <span class=\"count\">(%s)</span>"
+
+#. Description of the plugin/theme
+msgid "Manage job listings from the WordPress admin panel, and allow users to post jobs directly to your site."
+msgstr "Administrer jobbene fra WordPress-panelet, og tillat brukere å legge til jobber direkte på din side."
+
+#. #-#-#-#-#  wp-job-manager-code.pot (WP Job Manager 1.26.2)  #-#-#-#-#
+#. Plugin URI of the plugin/theme
+#. #-#-#-#-#  wp-job-manager-code.pot (WP Job Manager 1.26.2)  #-#-#-#-#
+#. Author URI of the plugin/theme
+msgid "https://wpjobmanager.com/"
+msgstr "http://wpjobmanager.com/"
+
+#. Plugin Name of the plugin/theme
+msgid "WP Job Manager"
+msgstr "WP Job Manager"
+
+#: wp-job-manager.php:215
+msgid "Are you sure you want to delete this listing?"
+msgstr "Er du sikker på at du vil slette denne utlysningen?"
+
+#: wp-job-manager.php:153
+msgid "Load previous listings"
+msgstr "Last inn tidligere utlysninger"
+
+#: wp-job-manager.php:204
+msgid "Invalid file type. Accepted types:"
+msgstr "Ugyldig filtype. Godkjente filtyper: "
+
+#: wp-job-manager-template.php:343
+msgid "Anywhere"
+msgstr "Hvor som helst"
+
+#: wp-job-manager-template.php:237
+msgid "Application via \"%s\" listing on %s"
+msgstr "Søknad via \"%s\" utlysning på %s"
+
+#: wp-job-manager-template.php:146
+msgid "Inactive"
+msgstr "Inaktiv"
+
+#: wp-job-manager-functions.php:879
+msgid "Uploaded files need to be one of the following file types: %s"
+msgstr "Opplastet fil må være en av følgende filtyper: %s"
+
+#: wp-job-manager-functions.php:664
+msgid "Choose a category&hellip;"
+msgstr "Velg en kategori &hellip;"
+
+#: wp-job-manager-functions.php:480
+msgid "This email is already registered, please choose another one."
+msgstr "Denne e-postadressen er allerede registrert. Vennligst prøv en annen."
+
+#: wp-job-manager-functions.php:476
+msgid "Your email address isn&#8217;t correct."
+msgstr "Din e-postadresse er ikke korrekt."
+
+#: wp-job-manager-functions.php:468
+msgid "Invalid email address."
+msgstr "Ugyldig e-postadresse."
+
+#: wp-job-manager-functions.php:377
+msgid "RSS"
+msgstr "RSS"
+
+#: wp-job-manager-functions.php:373
+msgid "Reset"
+msgstr "Tilbakestill"
+
+#: wp-job-manager-functions.php:272
+msgctxt "post status"
+msgid "Active"
+msgstr "Aktiv"
+
+#: wp-job-manager-functions.php:271
+msgctxt "post status"
+msgid "Pending payment"
+msgstr "Utestående betaling"
+
+#: wp-job-manager-functions.php:270
+msgctxt "post status"
+msgid "Pending approval"
+msgstr "Må godkjennes"
+
+#: includes/class-wp-job-manager-post-types.php:265
+#: wp-job-manager-functions.php:269
+msgctxt "post status"
+msgid "Preview"
+msgstr "Forhåndsvis"
+
+#: wp-job-manager-functions.php:267
+msgctxt "post status"
+msgid "Draft"
+msgstr "Kladd"
+
+#: templates/job-submitted.php:9
+msgid "%s submitted successfully. Your listing will be visible once approved."
+msgstr "%s utlysningen er sendt inn. Din stillingsutlysning blir synlig så snart den er godkjent."
+
+#: templates/job-submitted.php:6
+msgid "%s listed successfully. To view your listing <a href=\"%s\">click here</a>."
+msgstr "%s stillingen er lagt ut. For å se utlysningen <a href=\"%s\">klikk her</a>."
+
+#: templates/job-submit.php:43
+msgid "Company Details"
+msgstr "Detaljer om arbeidsgiver"
+
+#: templates/job-filters.php:44
+msgid "Your browser does not support JavaScript, or it is disabled. JavaScript must be enabled in order to view listings."
+msgstr "Din nettleser støtter ikke JavaScript, eller støtten er skrudd av. JavaScript må være tilgjengelig for å se ledige stillinger."
+
+#: templates/job-filters.php:31
+msgid "Any category"
+msgstr "Valgfri kategori"
+
+#: templates/job-filters.php:27
+msgid "Category"
+msgstr "Kategori"
+
+#: templates/job-filters.php:12 templates/job-filters.php:13
+msgid "Keywords"
+msgstr "Nøkkelord"
+
+#: templates/job-dashboard.php:45
+msgid "Relist"
+msgstr "Utlys på nytt"
+
+#: templates/job-dashboard.php:38
+msgid "Mark filled"
+msgstr "Merke utfylt"
+
+#: templates/job-dashboard.php:36
+msgid "Mark not filled"
+msgstr "Merke ikke utfylt"
+
+#: templates/job-dashboard.php:14
+msgid "You do not have any active listings."
+msgstr "Du har ingen aktive utlysninger."
+
+#: templates/job-dashboard.php:2
+msgid "Your listings are shown in the table below."
+msgstr "Dine utlysninger vises i tabellen nedenfor."
+
+#: templates/job-dashboard-login.php:3
+msgid "You need to be signed in to manage your listings."
+msgstr "Du må være innlogget for å administrere dine utlysninger."
+
+#: templates/job-application.php:7
+msgid "Apply for job"
+msgstr "Søk på denne stillingen"
+
+#: templates/job-application-url.php:1
+msgid "To apply for this job please visit the following URL:"
+msgstr "Vennligst følg lenken for å søke på denne stillingen:"
+
+#: templates/job-application-email.php:1
+msgid "To apply for this job <strong>email your details to</strong> <a class=\"job_application_email\" href=\"mailto:%1$s%2$s\">%1$s</a>"
+msgstr "For å søke på denne stillingen må du sende en e-post med CV og søknadsbrev til <a class=\"job_application_email\" href=\"mailto:%1$s%2$s\">%1$s</a>"
+
+#: templates/form-fields/uploaded-file-html.php:12
+#: templates/form-fields/uploaded-file-html.php:14
+msgid "remove"
+msgstr "fjern"
+
+#: templates/form-fields/multiselect-field.php:3
+#: wp-job-manager-functions.php:666
+msgid "Select Some Options"
+msgstr "Velg noen kriterier."
+
+#: templates/form-fields/multiselect-field.php:3
+#: wp-job-manager-functions.php:665
+msgid "No results match"
+msgstr "Ingen resultater."
+
+#: templates/form-fields/file-field.php:29
+msgid "Maximum file size: %s."
+msgstr "Maksimal filstørrelse: %s."
+
+#: templates/content-single-job_listing.php:6
+msgid "This listing has expired."
+msgstr "Tidsfristen har utløpt for denne utlysningen."
+
+#: templates/content-single-job_listing-meta.php:27
+msgid "Applications have closed"
+msgstr "Det er ikke lenger mulig å sende inn søknad."
+
+#: templates/content-single-job_listing-meta.php:25
+msgid "This position has been filled"
+msgstr "Denne stillingen er besatt"
+
+#: wp-job-manager-template.php:300 wp-job-manager-template.php:320
+msgid "Posted %s ago"
+msgstr "Publisert: %s siden"
+
+#: templates/content-no-jobs-found.php:4
+msgid "There are currently no vacancies."
+msgstr "Det er for øyeblikket ingen ledige stillinger."
+
+#: templates/content-no-jobs-found.php:2
+msgid "There are no listings matching your search."
+msgstr "Ingen utlysninger stemmer med dette søket."
+
+#: templates/account-signin.php:47
+msgid "Your email"
+msgstr "Din e-post"
+
+#: templates/account-signin.php:40 templates/account-signin.php:47
+#: templates/job-submit.php:32 templates/job-submit.php:49
+msgid "(optional)"
+msgstr "(valgfritt)"
+
+#: templates/account-signin.php:40
+msgid "Username"
+msgstr "Brukernavn"
+
+#: templates/account-signin.php:32
+msgid "You must sign in to create a new listing."
+msgstr "Du må logge inn for å lage en ny utlysning."
+
+#: templates/account-signin.php:28
+msgid "optionally"
+msgstr "valgfritt"
+
+#: templates/account-signin.php:28
+msgid "If you don&rsquo;t have an account you can %screate one below by entering your email address/username. Your account details will be confirmed via email."
+msgstr "Dersom du ikke har en konto kan du %sopprette en nedenfor ved å fylle inn e-postadresse/ brukernavn. Dine kontodetaljer vil bli bekreftet pr. e-post."
+
+#: templates/account-signin.php:24 templates/job-dashboard-login.php:3
+msgid "Sign in"
+msgstr "Logg inn"
+
+#: templates/account-signin.php:22
+msgid "Have an account?"
+msgstr "Har du en konto?"
+
+#: templates/account-signin.php:11
+msgid "Sign out"
+msgstr "Logg ut"
+
+#: templates/account-signin.php:8
+msgid "You are currently signed in as <strong>%s</strong>."
+msgstr "Du er logget inn som <strong>%s</strong>."
+
+#: templates/account-signin.php:4
+msgid "Your account"
+msgstr "Din konto"
+
+#: templates/job-preview.php:4
+msgid "Edit listing"
+msgstr "Rediger utlysning"
+
+#: templates/job-preview.php:3
+msgid "Submit Listing"
+msgstr "Send inn utlysning"
+
+#: includes/forms/class-wp-job-manager-form-submit-job.php:484
+msgid "You must be signed in to post a new listing."
+msgstr "Du må være innlogget for å legge til en utlysning."
+
+#: includes/forms/class-wp-job-manager-form-submit-job.php:466
+msgid "Please enter your email address."
+msgstr "Vennligst oppgi din e-postadresse."
+
+#: includes/forms/class-wp-job-manager-form-submit-job.php:463
+msgid "Please enter a username."
+msgstr "Vennligst oppgi et brukernavn."
+
+#: includes/forms/class-wp-job-manager-form-submit-job.php:345
+msgid "Please enter a valid application email address or URL"
+msgstr "Vennligst fyll inn en gyldig e-postadresse eller URL-adresse"
+
+#: includes/forms/class-wp-job-manager-form-submit-job.php:335
+msgid "Please enter a valid application URL"
+msgstr "Vennligst fyll inn en gyldig URL-adresse"
+
+#: includes/forms/class-wp-job-manager-form-submit-job.php:326
+msgid "Please enter a valid application email address"
+msgstr "Vennligst fyll inn en gyldig e-postadresse"
+
+#: includes/forms/class-wp-job-manager-form-submit-job.php:311
+#: wp-job-manager-functions.php:877
+msgid "\"%s\" (filetype %s) needs to be one of the following file types: %s"
+msgstr "\"%s\" (filtype %s) må være en av følgende filtyper: %s"
+
+#: includes/forms/class-wp-job-manager-form-submit-job.php:295
+msgid "%s is invalid"
+msgstr "%s er ugyldig"
+
+#: includes/forms/class-wp-job-manager-form-submit-job.php:285
+msgid "%s is a required field"
+msgstr "%s er et obligatorisk felt"
+
+#: includes/forms/class-wp-job-manager-form-submit-job.php:249
+msgid "Logo"
+msgstr "Logo"
+
+#: includes/forms/class-wp-job-manager-form-submit-job.php:245
+msgid "@yourcompany"
+msgstr "@dinbedrift"
+
+#: includes/forms/class-wp-job-manager-form-submit-job.php:242
+msgid "Twitter username"
+msgstr "Twitter-brukernavn"
+
+#: includes/forms/class-wp-job-manager-form-submit-job.php:238
+msgid "A link to a video about your company"
+msgstr "Lenke til en video om din bedrift"
+
+#: includes/forms/class-wp-job-manager-form-submit-job.php:235
+msgid "Video"
+msgstr "Video"
+
+#: includes/forms/class-wp-job-manager-form-submit-job.php:230
+msgid "Briefly describe your company"
+msgstr "Gi en kort beskrivelse av bedriften"
+
+#: includes/forms/class-wp-job-manager-form-submit-job.php:227
+msgid "Tagline"
+msgstr "Slagord"
+
+#: includes/forms/class-wp-job-manager-form-submit-job.php:220
+#: templates/content-single-job_listing-company.php:19
+msgid "Website"
+msgstr "Nettside"
+
+#: includes/forms/class-wp-job-manager-form-submit-job.php:216
+msgid "Enter the name of the company"
+msgstr "Fyll inn navnet på bedriften"
+
+#: includes/forms/class-wp-job-manager-form-submit-job.php:213
+msgid "Company name"
+msgstr "Bedriftens navn"
+
+#: includes/forms/class-wp-job-manager-form-submit-job.php:197
+msgid "Description"
+msgstr "Beskrivelse"
+
+#: includes/forms/class-wp-job-manager-form-submit-job.php:172
+msgid "Leave this blank if the location is not important"
+msgstr "La stå tomt om sted ikke er viktig"
+
+#: includes/forms/class-wp-job-manager-form-submit-job.php:164
+msgid "Job Title"
+msgstr "Stillingstittel"
+
+#: includes/forms/class-wp-job-manager-form-submit-job.php:152
+msgid "Enter an email address or website URL"
+msgstr "Fyll inn en e-postadresse eller URL-adresse"
+
+#: includes/forms/class-wp-job-manager-form-submit-job.php:151
+msgid "Application email/URL"
+msgstr "E-post/URL"
+
+#: includes/forms/class-wp-job-manager-form-submit-job.php:148
+#: includes/forms/class-wp-job-manager-form-submit-job.php:223
+msgid "http://"
+msgstr "http://"
+
+#: includes/forms/class-wp-job-manager-form-submit-job.php:147
+msgid "Application URL"
+msgstr "Søknads-URL"
+
+#: includes/forms/class-wp-job-manager-form-submit-job.php:144
+#: templates/account-signin.php:49
+msgid "you@yourdomain.com"
+msgstr "eksempel@dittdomene.no"
+
+#: includes/forms/class-wp-job-manager-form-submit-job.php:143
+msgid "Application email"
+msgstr "E-post for søknad"
+
+#: includes/forms/class-wp-job-manager-form-submit-job.php:75
+msgid "Done"
+msgstr "Fullført"
+
+#: includes/forms/class-wp-job-manager-form-submit-job.php:69
+#: includes/forms/class-wp-job-manager-form-submit-job.php:432
+#: templates/job-preview.php:5
+msgid "Preview"
+msgstr "Forhåndsvis"
+
+#: includes/forms/class-wp-job-manager-form-submit-job.php:63
+msgid "Submit Details"
+msgstr "Lagre detaljene"
+
+#: includes/forms/class-wp-job-manager-form-edit-job.php:135
+msgid "View &rarr;"
+msgstr "Vis &rarr;"
+
+#: includes/forms/class-wp-job-manager-form-edit-job.php:135
+#: includes/forms/class-wp-job-manager-form-edit-job.php:138
+msgid "Your changes have been saved."
+msgstr "Dine endringer er lagret."
+
+#: includes/forms/class-wp-job-manager-form-edit-job.php:106
+msgid "Save changes"
+msgstr "Lagre endringer"
+
+#: includes/forms/class-wp-job-manager-form-edit-job.php:67
+msgid "Invalid listing"
+msgstr "Ugyldig utlysning"
+
+#: includes/widgets/class-wp-job-manager-widget-featured-jobs.php:23
+#: includes/widgets/class-wp-job-manager-widget-featured-jobs.php:27
+msgid "Featured %s"
+msgstr "Fremhevet %s"
+
+#: includes/widgets/class-wp-job-manager-widget-featured-jobs.php:21
+msgid "Display a list of featured listings on your site."
+msgstr "Vis en liste med fremhevede utlysninger på ditt nettsted."
+
+#: includes/widgets/class-wp-job-manager-widget-featured-jobs.php:36
+#: includes/widgets/class-wp-job-manager-widget-recent-jobs.php:46
+msgid "Number of listings to show"
+msgstr "Antall utlysninger som vises"
+
+#: includes/widgets/class-wp-job-manager-widget-recent-jobs.php:33
+msgid "Keyword"
+msgstr "Nøkkelord"
+
+#: includes/widgets/class-wp-job-manager-widget-recent-jobs.php:23
+#: includes/widgets/class-wp-job-manager-widget-recent-jobs.php:27
+msgid "Recent %s"
+msgstr "Nylig %s"
+
+#: includes/widgets/class-wp-job-manager-widget-recent-jobs.php:21
+msgid "Display a list of recent listings on your site, optionally matching a keyword and location."
+msgstr "Vis en liste over nye utlysninger på ditt nettsted, eventuelt filtrert etter nøkkelord og sted."
+
+#: includes/class-wp-job-manager-shortcodes.php:314
+#: includes/class-wp-job-manager-shortcodes.php:348
+msgid "Load more listings"
+msgstr "Last inn flere utlysninger"
+
+#: includes/class-wp-job-manager-shortcodes.php:219
+msgid "Date Posted"
+msgstr "Publiseringsdato"
+
+#: includes/class-wp-job-manager-shortcodes.php:217
+#: includes/widgets/class-wp-job-manager-widget-featured-jobs.php:28
+#: includes/widgets/class-wp-job-manager-widget-recent-jobs.php:28
+msgid "Title"
+msgstr "Tittel"
+
+#: includes/class-wp-job-manager-shortcodes.php:128
+msgid "%s has been deleted"
+msgstr "%s har blitt slettet"
+
+#: includes/class-wp-job-manager-shortcodes.php:121
+msgid "%s has been marked as not filled"
+msgstr "% gjenstår av utfyllingen"
+
+#: includes/class-wp-job-manager-shortcodes.php:114
+msgid "This position is not filled"
+msgstr "Denne stillingen er ikke besatt"
+
+#: includes/class-wp-job-manager-shortcodes.php:109
+msgid "%s has been filled"
+msgstr "% er fylt ut"
+
+#: includes/class-wp-job-manager-shortcodes.php:103
+msgid "This position has already been filled"
+msgstr "Denne stillingen er allerede besatt"
+
+#: includes/class-wp-job-manager-shortcodes.php:96
+msgid "Invalid ID"
+msgstr "Ugyldig ID"
+
+#: includes/class-wp-job-manager-post-types.php:262
+msgid "Expired <span class=\"count\">(%s)</span>"
+msgid_plural "Expired <span class=\"count\">(%s)</span>"
+msgstr[0] "Utgått <span class=\"count\">(%s)</span>"
+msgstr[1] "Utgått <span class=\"count\">(%s)</span>"
+
+#: includes/class-wp-job-manager-post-types.php:256
+#: wp-job-manager-functions.php:268
+msgctxt "post status"
+msgid "Expired"
+msgstr "Utgått"
+
+#: includes/class-wp-job-manager-post-types.php:231
+msgid "This is where you can create and manage %s."
+msgstr "Her kan du opprette og administrere %s"
+
+#: includes/class-wp-job-manager-post-types.php:224
+msgid "No %s found in trash"
+msgstr "Ingen %s funnet i papirkurven"
+
+#: includes/class-wp-job-manager-post-types.php:223
+msgid "No %s found"
+msgstr "Ingen %s funnet"
+
+#: includes/class-wp-job-manager-post-types.php:220
+#: includes/class-wp-job-manager-post-types.php:221
+msgid "View %s"
+msgstr "Vis %s"
+
+#: includes/class-wp-job-manager-post-types.php:219
+msgid "New %s"
+msgstr "Ny %s"
+
+#: includes/class-wp-job-manager-post-types.php:216
+msgid "Add %s"
+msgstr "Legg til %s"
+
+#: includes/class-wp-job-manager-post-types.php:215
+msgid "Add New"
+msgstr "Legg til ny"
+
+#: includes/class-wp-job-manager-post-types.php:202
+msgctxt "Job permalink - resave permalinks after changing this"
+msgid "job"
+msgstr "jobb"
+
+#: includes/class-wp-job-manager-post-types.php:196
+msgctxt "Post type archive slug - resave permalinks after changing this"
+msgid "jobs"
+msgstr "jobber"
+
+#: includes/class-wp-job-manager-post-types.php:193
+msgid "Jobs"
+msgstr "Stillinger"
+
+#: includes/class-wp-job-manager-post-types.php:192
+msgid "Job"
+msgstr "Stilling"
+
+#: includes/class-wp-job-manager-post-types.php:147
+msgctxt "Job type slug - resave permalinks after changing this"
+msgid "job-type"
+msgstr "jobb-type"
+
+#: includes/class-wp-job-manager-post-types.php:143
+msgid "Job types"
+msgstr "Stillingstyper"
+
+#: includes/class-wp-job-manager-post-types.php:142
+#: includes/forms/class-wp-job-manager-form-submit-job.php:179
+msgid "Job type"
+msgstr "Type"
+
+#: includes/class-wp-job-manager-post-types.php:125
+#: includes/class-wp-job-manager-post-types.php:173
+msgid "New %s Name"
+msgstr "Nytt %s Navn"
+
+#: includes/class-wp-job-manager-post-types.php:124
+#: includes/class-wp-job-manager-post-types.php:172
+msgid "Add New %s"
+msgstr "Legg til ny %s"
+
+#: includes/class-wp-job-manager-post-types.php:123
+#: includes/class-wp-job-manager-post-types.php:171
+msgid "Update %s"
+msgstr "Oppdater %s"
+
+#: includes/class-wp-job-manager-post-types.php:122
+#: includes/class-wp-job-manager-post-types.php:170
+#: includes/class-wp-job-manager-post-types.php:218
+msgid "Edit %s"
+msgstr "Endre %s"
+
+#: includes/class-wp-job-manager-post-types.php:121
+#: includes/class-wp-job-manager-post-types.php:169
+msgid "Parent %s:"
+msgstr "Forelder %s:"
+
+#: includes/class-wp-job-manager-post-types.php:120
+#: includes/class-wp-job-manager-post-types.php:168
+#: includes/class-wp-job-manager-post-types.php:225
+msgid "Parent %s"
+msgstr "Forelder %s"
+
+#: includes/class-wp-job-manager-post-types.php:119
+#: includes/class-wp-job-manager-post-types.php:167
+#: includes/class-wp-job-manager-post-types.php:214
+msgid "All %s"
+msgstr "Alle stillinger"
+
+#: includes/class-wp-job-manager-post-types.php:118
+#: includes/class-wp-job-manager-post-types.php:166
+#: includes/class-wp-job-manager-post-types.php:222
+msgid "Search %s"
+msgstr "Søk %s"
+
+#: includes/class-wp-job-manager-post-types.php:98
+msgctxt "Job category slug - resave permalinks after changing this"
+msgid "job-category"
+msgstr "jobb-kategori"
+
+#: includes/class-wp-job-manager-post-types.php:94
+msgid "Job categories"
+msgstr "Stillingskategorier"
+
+#: includes/class-wp-job-manager-post-types.php:93
+#: includes/forms/class-wp-job-manager-form-submit-job.php:188
+msgid "Job category"
+msgstr "Jobbkategori"
+
+#: includes/class-wp-job-manager-install.php:61
+msgid "Employer"
+msgstr "Arbeidsgiver"
+
+#: includes/class-wp-job-manager-geocode.php:231
+#: includes/class-wp-job-manager-geocode.php:235
+#: includes/class-wp-job-manager-geocode.php:239
+msgid "Geocoding error"
+msgstr "Geocoding-feil"
+
+#: includes/class-wp-job-manager-geocode.php:225
+msgid "Query limit reached"
+msgstr "Søkegrense nådd"
+
+#: includes/class-wp-job-manager-geocode.php:221
+msgid "No results found"
+msgstr "Ingen resultater funnet"
+
+#: includes/admin/class-wp-job-manager-writepanels.php:434
+msgid "Enter the ID of the user, or leave blank if submitted by a guest."
+msgstr "Fyll inn brukerens ID, eller la stå tom hvis lagt inn av en gjest."
+
+#: includes/admin/class-wp-job-manager-writepanels.php:430
+msgid "Change"
+msgstr "Endre"
+
+#: includes/admin/class-wp-job-manager-writepanels.php:428
+msgid "Guest User"
+msgstr "Gjestebruker"
+
+#: includes/admin/class-wp-job-manager-writepanels.php:255
+msgid "Add file"
+msgstr "Legg til fil"
+
+#: includes/admin/class-wp-job-manager-writepanels.php:249
+#: includes/admin/class-wp-job-manager-writepanels.php:252
+#: includes/admin/class-wp-job-manager-writepanels.php:255
+msgid "Upload"
+msgstr "Last opp"
+
+#: includes/admin/class-wp-job-manager-writepanels.php:249
+#: includes/admin/class-wp-job-manager-writepanels.php:252
+#: includes/admin/class-wp-job-manager-writepanels.php:255
+msgid "Use file"
+msgstr "Bruk fil"
+
+#: includes/admin/class-wp-job-manager-writepanels.php:152
+msgid "%s Data"
+msgstr "%s Data"
+
+#: includes/admin/class-wp-job-manager-writepanels.php:119
+msgid "Posted by"
+msgstr "Publisert av"
+
+#: includes/admin/class-wp-job-manager-writepanels.php:109
+msgid "Listing Expiry Date"
+msgstr "Utløpsdato for utlysning"
+
+#: includes/admin/class-wp-job-manager-writepanels.php:104
+msgid "Featured listings will be sticky during searches, and can be styled differently."
+msgstr "Fremhevede stillingsutlysninger ligger øverst i søkeresultat, og kan være anderledes stilsatt."
+
+#: includes/admin/class-wp-job-manager-writepanels.php:102
+msgid "Featured Listing"
+msgstr "Fremhevet stillingsutlysning"
+
+#: includes/admin/class-wp-job-manager-writepanels.php:97
+msgid "Filled listings will no longer accept applications."
+msgstr "Det går ikke an å søke på en stilling som er besatt. "
+
+#: includes/admin/class-wp-job-manager-writepanels.php:94
+msgid "Position Filled"
+msgstr "Stillingen er besatt"
+
+#: includes/admin/class-wp-job-manager-writepanels.php:89
+msgid "URL to the company video"
+msgstr "URL til bedriftens video"
+
+#: includes/admin/class-wp-job-manager-writepanels.php:88
+msgid "Company Video"
+msgstr "Bedriftens video"
+
+#: includes/class-wp-job-manager-post-types.php:226
+msgid "Company Logo"
+msgstr "Bedriftens logo"
+
+#: includes/admin/class-wp-job-manager-writepanels.php:83
+msgid "Company Twitter"
+msgstr "Bedrift Twitter"
+
+#: includes/admin/class-wp-job-manager-writepanels.php:79
+msgid "Brief description about the company"
+msgstr "Kort beskrivelse av bedriften"
+
+#: includes/admin/class-wp-job-manager-writepanels.php:78
+msgid "Company Tagline"
+msgstr "Bedriftens slagord"
+
+#: includes/admin/class-wp-job-manager-writepanels.php:73
+msgid "Company Website"
+msgstr "Bedriftens nettsted"
+
+#: includes/admin/class-wp-job-manager-writepanels.php:68
+msgid "Company Name"
+msgstr "Navn på bedrift"
+
+#: includes/admin/class-wp-job-manager-writepanels.php:63
+msgid "This field is required for the \"application\" area to appear beneath the listing."
+msgstr "Dette feltet er nødvendig for at \"søknadsfeltet\" skal dukke opp under utlysningen."
+
+#: includes/admin/class-wp-job-manager-writepanels.php:62
+msgid "URL or email which applicants use to apply"
+msgstr "URL eller e-post som interesenter kan bruke for å søke på stillingen"
+
+#: includes/admin/class-wp-job-manager-writepanels.php:61
+msgid "Application Email or URL"
+msgstr "E-post eller URL for å søke"
+
+#: includes/admin/class-wp-job-manager-writepanels.php:57
+msgid "Leave this blank if the location is not important."
+msgstr "La feltet være tomt dersom sted ikke er viktig."
+
+#: includes/admin/class-wp-job-manager-writepanels.php:56
+#: includes/forms/class-wp-job-manager-form-submit-job.php:175
+msgid "e.g. \"London\""
+msgstr "f. eks. \"Oslo\""
+
+#: includes/admin/class-wp-job-manager-setup.php:265
+msgid "Help other users on the forums"
+msgstr "Hjelp andre brukere på forumene"
+
+#: includes/admin/class-wp-job-manager-setup.php:264
+msgid "Contribute code or report a bug"
+msgstr "Bidra med kode eller meld fra om en bug"
+
+#: includes/admin/class-wp-job-manager-setup.php:263
+msgid "Contribute a localization"
+msgstr "Bidra med en oversettelse"
+
+#: includes/admin/class-wp-job-manager-setup.php:262
+msgid "Leave a positive review"
+msgstr "Legg igjen en positiv anmeldelse"
+
+#: includes/admin/class-wp-job-manager-setup.php:260
+msgid "There are many ways to support open-source projects such as WP Job Manager, for example code contribution, translation, or even telling your friends how awesome the plugin (hopefully) is. Thanks in advance for your support - it is much appreciated!"
+msgstr "Det er mange måter å støtte prosjekter med åpen kildekode, slik som WP Job Manager, for eksempel bidra med kode, oversettelser, eller fortelle venner og bekjente om hvor fantastisk innstikket (forhåpentligvis) er. Takk på forhånd for din støtte – vi setter stor pris på det!"
+
+#: includes/admin/class-wp-job-manager-setup.php:259
+msgid "Support the Ongoing Development of this Plugin"
+msgstr "Bidra til fortsatt utvikling av dette innstikket"
+
+#: includes/admin/class-wp-job-manager-setup.php:256
+msgid "And don't forget, if you need any more help using <em>WP Job Manager</em> you can consult the %1$sdocumentation%2$s or %3$spost on the forums%2$s!"
+msgstr "Ikke glem, hvis du trenger mer hjelp til å bruke <em>WP Job Manager</em> kan du sjekke %1$sdokomentasjonen%2$s eller %3$sstille et spørsmål i forumet%2$s!"
+
+#: includes/admin/class-wp-job-manager-setup.php:252
+msgid "Find out more about the front-end job dashboard"
+msgstr "Finn ut mer om front-end kontrollpanel for stillinger"
+
+#: includes/admin/class-wp-job-manager-setup.php:250
+msgid "View the job dashboard"
+msgstr "Se kontrollpanel for stillinger"
+
+#: includes/admin/class-wp-job-manager-setup.php:246
+msgid "Add the [jobs] shortcode to a page to list jobs"
+msgstr "Legg til [jobs] koden på en side for å vise en liste med utlysninger"
+
+#: includes/admin/class-wp-job-manager-setup.php:244
+msgid "View submitted job listings"
+msgstr "Se innsendte utlysninger"
+
+#: includes/admin/class-wp-job-manager-setup.php:240
+msgid "Find out more about the front-end job submission form"
+msgstr "Finn ut mer om forsideskjemaet"
+
+#: includes/admin/class-wp-job-manager-setup.php:238
+msgid "Add a job via the front-end"
+msgstr "Legg til en stilling via front-end"
+
+#: includes/admin/class-wp-job-manager-setup.php:235
+msgid "Add a job via the back-end"
+msgstr "Lett til en stilling via kontrollpanelet"
+
+#: includes/admin/class-wp-job-manager-setup.php:234
+msgid "Tweak the plugin settings"
+msgstr "Tilpass instillinger"
+
+#: includes/admin/class-wp-job-manager-setup.php:231
+msgid "Looks like you're all set to start using the plugin. In case you're wondering where to go next:"
+msgstr "Det ser ut til at du er klar for å begynne å bruke innstikket. I tilfelle du lurer på hva du skal gjøre nå:"
+
+#: includes/admin/class-wp-job-manager-setup.php:229
+msgid "All Done!"
+msgstr "Ferdig!"
+
+#: includes/admin/class-wp-job-manager-setup.php:219
+msgid "Skip this step"
+msgstr "Hopp over"
+
+#: includes/admin/class-wp-job-manager-setup.php:211
+msgid "This page allows users to browse, search, and filter job listings on the front-end of your site."
+msgstr "Denne siden lar brukere se gjennom, søke og filtrere utlysninger fra front-end."
+
+#: includes/admin/class-wp-job-manager-setup.php:210
+msgctxt "Default page title (wizard)"
+msgid "Jobs"
+msgstr "Stillinger"
+
+#: includes/admin/class-wp-job-manager-setup.php:204
+msgid "If you plan on managing all listings from the admin dashboard you can skip creating this page."
+msgstr "Dersom du ønsker å administrere alle stillinger fra kontrollpanelet, kan du hoppe over dette."
+
+#: includes/admin/class-wp-job-manager-setup.php:202
+msgid "This page allows employers to manage and edit their own jobs from the front-end."
+msgstr "Denne siden gir arbeidsgiver oversikt og mulighet til å redigere utlysninger fra front-end."
+
+#: includes/admin/class-wp-job-manager-setup.php:200
+msgctxt "Default page title (wizard)"
+msgid "Job Dashboard"
+msgstr "Kontrollpanel for stillinger"
+
+#: includes/admin/class-wp-job-manager-setup.php:194
+msgid "If you do not want to accept submissions from users in this way (for example you just want to post jobs from the admin dashboard) you can skip creating this page."
+msgstr "Dersom du ikke ønsker å motta utlysninger på denne måten, for eksempel ved at du kun ønsker å legge ut stillinger fra kontrollpanelet, kan du hoppe over dette."
+
+#: includes/admin/class-wp-job-manager-setup.php:192
+msgid "This page allows employers to post jobs to your website from the front-end."
+msgstr "Denne siden lar arbeidsgivere lyse ut stillinger på ditt nettsted fra front-end."
+
+#: includes/admin/class-wp-job-manager-setup.php:190
+msgctxt "Default page title (wizard)"
+msgid "Post a Job"
+msgstr "Utlys en stilling"
+
+#: includes/admin/class-wp-job-manager-setup.php:184
+msgid "Content Shortcode"
+msgstr "Innholdskortkode"
+
+#: includes/admin/class-wp-job-manager-setup.php:183
+msgid "Page Description"
+msgstr "Sidebeskrivelse"
+
+#: includes/admin/class-wp-job-manager-setup.php:182
+msgid "Page Title"
+msgstr "Sidetittel"
+
+#: includes/admin/class-wp-job-manager-setup.php:174
+msgid "<em>WP Job Manager</em> includes %1$sshortcodes%2$s which can be used within your %3$spages%2$s to output content. These can be created for you below. For more information on the job shortcodes view the %4$sshortcode documentation%2$s."
+msgstr "<em>WP Job Manager</em> inkluderer %1$skortkoder%2$s som kan brukes på dine %3$ssider%2$s for å vise innhold. Disse kan opprettes automatisk for deg under. For mer informasjon om stillings-kortkoder, se %4$skortkode dokoumentasjonen%2$s."
+
+#: includes/admin/class-wp-job-manager-setup.php:172
+msgid "Page Setup"
+msgstr "Sideoppsett"
+
+#: includes/admin/class-wp-job-manager-setup.php:166
+msgid "Skip setup. I will setup the plugin manually"
+msgstr "Hopp over oppstart. Jeg ønsker å sette opp innstikket manuelt."
+
+#: includes/admin/class-wp-job-manager-setup.php:165
+msgid "Continue to page setup"
+msgstr "Fortsett til sideoppsett"
+
+#: includes/admin/class-wp-job-manager-setup.php:162
+msgid "If you want to skip the wizard and setup the pages and shortcodes yourself manually, the process is still relatively simple. Refer to the %sdocumentation%s for help."
+msgstr "Hvis du ønsker å hoppe over oppstartsguiden og sette opp sider og kortkoder selv. Prosessen er relativt enkel, sjekk %sdokumentasjonen%s for ytterligere hjelp."
+
+#: includes/admin/class-wp-job-manager-setup.php:161
+msgid "This setup wizard will help you get started by creating the pages for job submission, job management, and listing your jobs."
+msgstr "Denne oppstartsguiden vil hjelpe deg til å sette opp sider for å opprette stillinger, administrere stillinger og utlisting av stillinger."
+
+#: includes/admin/class-wp-job-manager-setup.php:160
+msgid "Thanks for installing <em>WP Job Manager</em>!"
+msgstr "Takk for at du installerte <em>WP Job Manager</em>!"
+
+#: includes/admin/class-wp-job-manager-setup.php:158
+msgid "Setup Wizard Introduction"
+msgstr "Oppsettsassistent, introduksjon"
+
+#: includes/admin/class-wp-job-manager-setup.php:153
+msgid "3. Done"
+msgstr "3. Ferdig"
+
+#: includes/admin/class-wp-job-manager-setup.php:152
+msgid "2. Page Setup"
+msgstr "2. Sideoppsett"
+
+#: includes/admin/class-wp-job-manager-setup.php:151
+msgid "1. Introduction"
+msgstr "1. Innledning"
+
+#: includes/admin/class-wp-job-manager-setup.php:148
+msgid "WP Job Manager Setup"
+msgstr "WP Job Manager oppsett"
+
+#: includes/admin/class-wp-job-manager-setup.php:51
+msgid "Setup"
+msgstr "Oppsett"
+
+#: includes/admin/class-wp-job-manager-settings.php:422
+msgid "Save Changes"
+msgstr "Lagre endringer"
+
+#: includes/admin/class-wp-job-manager-settings.php:376
+msgid "Select a page&hellip;"
+msgstr "Velg en side &hellip;"
+
+#: includes/admin/class-wp-job-manager-settings.php:371
+msgid "--no page--"
+msgstr "– Ingen side –"
+
+#: includes/admin/class-wp-job-manager-settings.php:311
+msgid "Settings successfully saved"
+msgstr "Innstillingene ble lagret"
+
+#: includes/admin/class-wp-job-manager-settings.php:265
+msgid "Select the page where you have placed the [jobs] shortcode. This lets the plugin know where the job listings page is located."
+msgstr "Velg siden der du har lagt inn [job] kortkoden. Dette gjør at innstikket vet hvor siden med utlysninger befinner seg."
+
+#: includes/admin/class-wp-job-manager-settings.php:264
+msgid "Job Listings Page"
+msgstr "Stillingsutlysninger"
+
+#: includes/admin/class-wp-job-manager-settings.php:258
+msgid "Select the page where you have placed the [job_dashboard] shortcode. This lets the plugin know where the dashboard is located."
+msgstr "Velg siden der du har lagt inn [job_dashboard] kortkoden. Dette gjør at innstikket vet hvor kontrollpanelet befinner seg."
+
+#: includes/admin/class-wp-job-manager-settings.php:257
+msgid "Job Dashboard Page"
+msgstr "Stillingskontrollpanel"
+
+#: includes/admin/class-wp-job-manager-settings.php:251
+msgid "Select the page where you have placed the [submit_job_form] shortcode. This lets the plugin know where the form is located."
+msgstr "Velg siden der du har lagt inn [submit_job_form] kortkoden. Dette gjør at innstikket vet hvor skjemaet befinner seg."
+
+#: includes/admin/class-wp-job-manager-settings.php:250
+msgid "Submit Job Form Page"
+msgstr "Opprette stillingsside"
+
+#: includes/admin/class-wp-job-manager-settings.php:245
+msgid "Pages"
+msgstr "Sider"
+
+#: includes/admin/class-wp-job-manager-settings.php:239
+msgid "Website URLs only"
+msgstr "Kun URL-adresse"
+
+#: includes/admin/class-wp-job-manager-settings.php:238
+msgid "Email addresses only"
+msgstr "Kun e-postadresse"
+
+#: includes/admin/class-wp-job-manager-settings.php:237
+msgid "Email address or website URL"
+msgstr "E-postadresse eller URL-adresse"
+
+#: includes/admin/class-wp-job-manager-settings.php:234
+msgid "Choose the contact method for listings."
+msgstr "Velg kontaktmåte for utlysninger."
+
+#: includes/admin/class-wp-job-manager-settings.php:233
+msgid "Application Method"
+msgstr "Søknadsmetode"
+
+#: includes/admin/class-wp-job-manager-settings.php:227
+msgid "How many <strong>days</strong> listings are live before expiring. Can be left blank to never expire."
+msgstr "Hvor mange <strong>dager</strong> stillingsannonser er aktive før de utgår. La så blank hvis de aldri utgår."
+
+#: includes/admin/class-wp-job-manager-settings.php:226
+msgid "Listing Duration"
+msgstr "Utlysningsvarighet"
+
+#: includes/admin/class-wp-job-manager-settings.php:219
+msgid "If enabled, submissions awaiting admin approval can be edited by the user."
+msgstr "Hvis aktivert vil utlysninger som avventer godkjenning av en administrator kunne redigeres av bruker."
+
+#: includes/admin/class-wp-job-manager-settings.php:218
+msgid "Submissions awaiting approval can be edited"
+msgstr "Utlysninger som avventer godkjenning kan redigeres"
+
+#: includes/admin/class-wp-job-manager-settings.php:217
+msgid "Allow Pending Edits"
+msgstr "Tillat redigering av utlysninger som ligger til godkjenning"
+
+#: includes/admin/class-wp-job-manager-settings.php:210
+msgid "If enabled, new submissions will be inactive, pending admin approval."
+msgstr "Hvis aktivert må nye stillingsannonser godkjennes før de blir aktive."
+
+#: includes/admin/class-wp-job-manager-settings.php:209
+msgid "New listing submissions require admin approval"
+msgstr "Nye utlysninger krever godkjenning av en adminstrator"
+
+#: includes/admin/class-wp-job-manager-settings.php:208
+msgid "Moderate New Listings"
+msgstr "Se gjennom nye utlysninger før publisering"
+
+#: includes/admin/class-wp-job-manager-settings.php:201
+msgid "If you enable registration on your submission form, choose a role for the new user."
+msgstr "Velger du å aktivere brukerregistrering på skjemaet, velg en rolle for den nye brukeren."
+
+#: includes/admin/class-wp-job-manager-settings.php:200
+msgid "Account Role"
+msgstr "Brukerrolle"
+
+#: includes/admin/class-wp-job-manager-settings.php:193
+msgid "If enabled, a username will be generated from the first part of the user email address. Otherwise, a username field will be shown."
+msgstr "Hvis aktivert vil et brukernavn genereres fra første del av e-postadressen. Ellers vil et felt for å fylle inn brukernavn vises."
+
+#: includes/admin/class-wp-job-manager-settings.php:192
+msgid "Automatically Generate Username from Email Address"
+msgstr "Generer brukernavn fra e-postadresse automatisk"
+
+#: includes/admin/class-wp-job-manager-settings.php:191
+msgid "Account Username"
+msgstr "Brukerkonto"
+
+#: includes/admin/class-wp-job-manager-settings.php:184
+msgid "If enabled, non-logged in users will be able to create an account by entering their email address on the submission form."
+msgstr "Hvis aktivert vil ikke innloggede brukere kunne opprette en konto ved å fylle inn e-postadresse i registreringsskjemaet."
+
+#: includes/admin/class-wp-job-manager-settings.php:183
+msgid "Allow account creation"
+msgstr "Tillat brukerregistrering"
+
+#: includes/admin/class-wp-job-manager-settings.php:182
+msgid "Account Creation"
+msgstr "Opprett konto"
+
+#: includes/admin/class-wp-job-manager-settings.php:175
+msgid "If disabled, non-logged in users will be able to submit listings without creating an account."
+msgstr "Hvis deaktivert vil ikke innloggede brukere kunne sende inn stillingsutlysninger uten å ha en brukerkonto."
+
+#: includes/admin/class-wp-job-manager-settings.php:174
+msgid "Submitting listings requires an account"
+msgstr "For å sende inn en utlysning kreves en brukerkonto."
+
+#: includes/admin/class-wp-job-manager-settings.php:173
+msgid "Account Required"
+msgstr "Konto påkrevd"
+
+#: includes/admin/class-wp-job-manager-settings.php:168
+msgid "Job Submission"
+msgstr "Sett inn stillingsannonse"
+
+#: includes/admin/class-wp-job-manager-settings.php:126
+msgid "Jobs will be shown if within ALL selected categories"
+msgstr "Stillinger vises dersom de tilhører ALLE de valgte kategoriene"
+
+#: includes/admin/class-wp-job-manager-settings.php:125
+msgid "Jobs will be shown if within ANY selected category"
+msgstr "Stillinger vises dersom de tilhører NOEN av de valgte kategoriene"
+
+#: includes/admin/class-wp-job-manager-settings.php:121
+msgid "Category Filter Type"
+msgstr "Kategorifilter"
+
+#: includes/admin/class-wp-job-manager-settings.php:114
+msgid "If enabled, the category select box will default to a multiselect on the [jobs] shortcode."
+msgstr "Om aktivert så vil kateogri boksen som standard være flervalg på [jobs] koden."
+
+#: includes/admin/class-wp-job-manager-settings.php:113
+msgid "Enable category multiselect by default"
+msgstr "Aktiver at at flere kategorier kan velges som standard."
+
+#: includes/admin/class-wp-job-manager-settings.php:112
+msgid "Multi-select Categories"
+msgstr "Velg flere kategorier."
+
+#: includes/admin/class-wp-job-manager-settings.php:105
+msgid "Choose whether to enable categories. Categories must be setup by an admin to allow users to choose them during submission."
+msgstr "Velg om kategorier skal aktiveres. Kategorier må settes opp av en admin for at brukere skal kunne velge dem under innsending."
+
+#: includes/admin/class-wp-job-manager-settings.php:104
+msgid "Enable categories for listings"
+msgstr "Aktiver kategorier for oppføringer."
+
+#: includes/admin/class-wp-job-manager-settings.php:96
+msgid "If enabled, the content within expired listings will be hidden. Otherwise, expired listings will be displayed as normal (without the application area)."
+msgstr "Hvis aktivert vil innholdet i utgåtte stillingsutlysninger være skjult. Ellers vil utgåtte stillinger vises som normalt, dog uten mulighet til å søke."
+
+#: includes/admin/class-wp-job-manager-settings.php:78
+msgid "If enabled, filled positions will be hidden from archives."
+msgstr "Hvis aktivert vil besatte stillinger bli skjult fra arkivet."
+
+#: includes/admin/class-wp-job-manager-settings.php:77
+msgid "Hide filled positions"
+msgstr "Skjul besatte stillinger"
+
+#: includes/admin/class-wp-job-manager-settings.php:76
+msgid "Filled Positions"
+msgstr "Fylte stillinger"
+
+#: includes/admin/class-wp-job-manager-settings.php:70
+msgid "How many listings should be shown per page by default?"
+msgstr "Hvor mange oppføringer skal bli vist per side som standard?"
+
+#: includes/admin/class-wp-job-manager-settings.php:69
+msgid "Listings Per Page"
+msgstr "Oppføringer per side:"
+
+#: includes/admin/class-wp-job-manager-settings.php:63
+#: includes/class-wp-job-manager-post-types.php:213
+#: includes/class-wp-job-manager-post-types.php:280
+msgid "Job Listings"
+msgstr "Stillinger"
+
+#: includes/admin/class-wp-job-manager-cpt.php:419
+#: templates/job-dashboard.php:56
+msgid "Delete"
+msgstr "Slett"
+
+#: includes/admin/class-wp-job-manager-cpt.php:412
+#: includes/class-wp-job-manager-post-types.php:217
+#: templates/job-dashboard.php:33 templates/job-dashboard.php:51
+msgid "Edit"
+msgstr "Rediger"
+
+#: includes/admin/class-wp-job-manager-cpt.php:405
+#: includes/admin/class-wp-job-manager-writepanels.php:249
+#: includes/admin/class-wp-job-manager-writepanels.php:252
+#: includes/admin/class-wp-job-manager-writepanels.php:255
+msgid "View"
+msgstr "Vis"
+
+#: includes/admin/class-wp-job-manager-cpt.php:397
+msgid "Approve"
+msgstr "Godkjenn"
+
+#: includes/admin/class-wp-job-manager-cpt.php:379
+msgid "by %s"
+msgstr "av %s"
+
+#: includes/admin/class-wp-job-manager-cpt.php:379
+msgid "by a guest"
+msgstr "av en gjest"
+
+#: includes/admin/class-wp-job-manager-cpt.php:378
+#: includes/admin/class-wp-job-manager-cpt.php:383
+msgid "M j, Y"
+msgstr "j. M, Y"
+
+#: includes/admin/class-wp-job-manager-cpt.php:349
+msgid "ID: %d"
+msgstr "ID: %d"
+
+#: includes/admin/class-wp-job-manager-cpt.php:289
+msgid "Actions"
+msgstr "Handlinger"
+
+#: includes/admin/class-wp-job-manager-cpt.php:288
+#: includes/class-wp-job-manager-shortcodes.php:218
+msgid "Filled?"
+msgstr "Besatt?"
+
+#: includes/admin/class-wp-job-manager-cpt.php:287
+msgid "Featured?"
+msgstr "Framhevet?"
+
+#: includes/admin/class-wp-job-manager-cpt.php:286
+#: includes/admin/class-wp-job-manager-settings.php:103
+msgid "Categories"
+msgstr "Kategorier"
+
+#: includes/admin/class-wp-job-manager-cpt.php:285
+msgid "Expires"
+msgstr "Utgår"
+
+#: includes/admin/class-wp-job-manager-cpt.php:284
+msgid "Posted"
+msgstr "Publisert"
+
+#: includes/admin/class-wp-job-manager-cpt.php:283
+msgid "Status"
+msgstr "Status"
+
+#: includes/admin/class-wp-job-manager-cpt.php:282
+#: includes/admin/class-wp-job-manager-writepanels.php:55
+#: includes/forms/class-wp-job-manager-form-submit-job.php:171
+#: includes/widgets/class-wp-job-manager-widget-recent-jobs.php:38
+#: templates/job-filters.php:17 templates/job-filters.php:18
+msgid "Location"
+msgstr "Steder"
+
+#: includes/admin/class-wp-job-manager-cpt.php:281
+msgid "Type"
+msgstr "Type"
+
+#: includes/admin/class-wp-job-manager-cpt.php:261
+msgid "%s draft updated. <a target=\"_blank\" href=\"%s\">Preview</a>"
+msgstr "%s utkast oppdatert. <a target=\"_blank\" href=\"%s\">Forhåndsvis</a>"
+
+#: includes/admin/class-wp-job-manager-cpt.php:260
+msgid "M j, Y @ G:i"
+msgstr "j. M, Y @ H:i"
+
+#: includes/admin/class-wp-job-manager-cpt.php:259
+msgid "%s scheduled for: <strong>%1$s</strong>. <a target=\"_blank\" href=\"%2$s\">Preview</a>"
+msgstr "%s planlagt: <strong>%1$s</strong>. <a target=\"_blank\" href=\"%2$s\">Forhåndsvis</a>"
+
+#: includes/admin/class-wp-job-manager-cpt.php:258
+msgid "%s submitted. <a target=\"_blank\" href=\"%s\">Preview</a>"
+msgstr "%s sendt inn. <a target=\"_blank\" href=\"%s\">Forhåndsvis</a>"
+
+#: includes/admin/class-wp-job-manager-cpt.php:257
+msgid "%s saved."
+msgstr "%s lagret."
+
+#: includes/admin/class-wp-job-manager-cpt.php:256
+msgid "%s published. <a href=\"%s\">View</a>"
+msgstr "%s publisert."
+
+#: includes/admin/class-wp-job-manager-cpt.php:255
+msgid "%s restored to revision from %s"
+msgstr "%s gjennopprettet for revisjon fra %s"
+
+#: includes/admin/class-wp-job-manager-cpt.php:254
+msgid "%s updated."
+msgstr "%s oppdatert."
+
+#: includes/admin/class-wp-job-manager-cpt.php:253
+msgid "Custom field deleted."
+msgstr "Tilpassede felt slettet."
+
+#: includes/admin/class-wp-job-manager-cpt.php:252
+msgid "Custom field updated."
+msgstr "Tilpassede felt oppdatert."
+
+#: includes/admin/class-wp-job-manager-cpt.php:251
+msgid "%s updated. <a href=\"%s\">View</a>"
+msgstr "%s oppdatert. <a href=\"%s\">Vis</a>"
+
+#: includes/admin/class-wp-job-manager-cpt.php:236
+#: includes/admin/class-wp-job-manager-cpt.php:280
+msgid "Position"
+msgstr "Stilling"
+
+#: includes/admin/class-wp-job-manager-cpt.php:220
+msgid "Select category"
+msgstr "Velg kategori"
+
+#: includes/admin/class-wp-job-manager-cpt.php:186
+#: includes/admin/class-wp-job-manager-cpt.php:188
+msgid "%s expired"
+msgstr "%s utløpt"
+
+#: includes/admin/class-wp-job-manager-cpt.php:166
+#: includes/admin/class-wp-job-manager-cpt.php:168
+msgid "%s approved"
+msgstr "%s godkjent"
+
+#: includes/admin/class-wp-job-manager-cpt.php:77
+#: includes/admin/class-wp-job-manager-cpt.php:78
+msgid "Expire %s"
+msgstr "Utløper %s"
+
+#: includes/admin/class-wp-job-manager-cpt.php:74
+#: includes/admin/class-wp-job-manager-cpt.php:75
+msgid "Approve %s"
+msgstr "Godkjenn %s"
+
+#: includes/admin/class-wp-job-manager-admin.php:82
+msgid "Add-ons"
+msgstr "Utvidelser"
+
+#: includes/admin/class-wp-job-manager-admin.php:79
+msgid "Settings"
+msgstr "Innstillinger"
+
+#: includes/admin/class-wp-job-manager-addons.php:84
+msgid "Check out the core add-on bundle &rarr;"
+msgstr "Sjekk ut samlingen med utvidelser &rarr;"
+
+#: includes/admin/class-wp-job-manager-addons.php:84
+msgid "Do you need multiple add-ons?"
+msgstr "Trenger du flere enn én utvidelse?"
+
+#: includes/admin/class-wp-job-manager-addons.php:82
+#: includes/admin/class-wp-job-manager-admin.php:82
+msgid "WP Job Manager Add-ons"
+msgstr "WP Job Manager Utvidelser"

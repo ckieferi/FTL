@@ -1,0 +1,372 @@
+# Translation of Themes - Shoreditch in Japanese
+# This file is distributed under the same license as the Themes - Shoreditch package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2017-07-28 02:03:59+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: ja_JP\n"
+"Project-Id-Version: Themes - Shoreditch\n"
+
+#. Theme Name of the plugin/theme
+msgid "Shoreditch"
+msgstr "Shoreditch"
+
+#: inc/plugin-enhancements.php:169
+msgid "Content Options"
+msgstr "コンテンツ設定"
+
+#: attachment.php:29
+msgid "Published in"
+msgstr "公開:"
+
+#. Template Name of the plugin/theme
+msgid "Panel Page Template"
+msgstr "パネルページテンプレート"
+
+#. Template Name of the plugin/theme
+msgid "Full Width Page Template"
+msgstr "全幅ページテンプレート"
+
+#. translators: %s: Name of current post.
+#: template-parts/content.php:34
+msgid "Continue reading %s <span class=\"meta-nav\">&rarr;</span>"
+msgstr "%s の続きを読む <span class=\"meta-nav\">&rarr;</span>"
+
+#: template-parts/content-page.php:31 template-parts/content-panel-page.php:33
+#: template-parts/content.php:43
+msgid "Page"
+msgstr "固定ページ"
+
+#: template-parts/content-page.php:27 template-parts/content-panel-page.php:29
+#: template-parts/content.php:39
+msgid "Pages:"
+msgstr "ページ: "
+
+#: template-parts/content-none.php:29
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "お探しのコンテンツを見つけられませんでした。検索をお試しください。"
+
+#: template-parts/content-none.php:24
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "ご指定の検索条件に一致する投稿がありませんでした。他のキーワードでもう一度検索してみてください。"
+
+#: template-parts/content-none.php:20
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "最初の投稿を公開する準備はできましたか？<a href=\"%1$s\">ここから始めましょう</a>。"
+
+#: template-parts/content-none.php:14
+msgid "Nothing Found"
+msgstr "見つかりません"
+
+#: template-parts/content-author.php:34
+msgid "View all posts by %s"
+msgstr "%s のすべての投稿を表示"
+
+#: template-parts/content-author.php:28
+msgid "Published by %s"
+msgstr "投稿者: %s"
+
+#: single.php:37
+msgid "Previous post:"
+msgstr "過去の投稿:"
+
+#: single.php:37
+msgid "Previous"
+msgstr "前"
+
+#: single.php:36
+msgid "Next post:"
+msgstr "次の投稿:"
+
+#: single.php:36
+msgid "Next"
+msgstr "次"
+
+#: searchform.php:14
+msgctxt "submit button"
+msgid "Search"
+msgstr "検索"
+
+#: searchform.php:12
+msgctxt "placeholder"
+msgid "Search &hellip;"
+msgstr "検索 &hellip;"
+
+#: searchform.php:11 searchform.php:12
+msgctxt "label"
+msgid "Search for:"
+msgstr "検索:"
+
+#: search.php:21
+msgid "Search Results for: %s"
+msgstr "「%s」の検索結果"
+
+#. translators: %s: Name of current post
+#: inc/template-tags.php:67 template-parts/content-attachment.php:38
+#: template-parts/content-page.php:41 template-parts/content-panel-page.php:43
+msgid "Edit %s"
+msgstr "%s を編集"
+
+#: inc/template-tags.php:60
+msgid "% Comments"
+msgstr "%件のコメント"
+
+#: inc/template-tags.php:60
+msgid "1 Comment"
+msgstr "1件のコメント"
+
+#: inc/template-tags.php:60
+msgid "Leave a comment"
+msgstr "コメントをどうぞ"
+
+#: inc/template-tags.php:46
+msgid "Featured Post"
+msgstr "おすすめ投稿"
+
+#. translators: used between list items, there is a space after the comma
+#: inc/template-tags.php:17 inc/template-tags.php:52
+msgid ", "
+msgstr "・"
+
+#: inc/plugin-enhancements.php:405
+msgid "Your request was processed. See ya!"
+msgstr "リクエストは処理されました。ご覧ください。"
+
+#: inc/plugin-enhancements.php:398
+msgid "Your request failed permission check."
+msgstr "あなたのリクエストはパーミッションの認証に失敗しました。"
+
+#: inc/plugin-enhancements.php:302
+msgid "To use %1$s, please activate the Jetpack plugin&rsquo;s %2$s."
+msgstr "%1$s を使うには Jetpack プラグインの %2$s を有効化してください。"
+
+#: inc/plugin-enhancements.php:277
+msgid "Install"
+msgstr "インストール"
+
+#: inc/plugin-enhancements.php:275
+msgid " Please install %1$s. %2$s"
+msgstr "%1$s をインストールしてください。%2$s"
+
+#: inc/plugin-enhancements.php:267
+msgid "Activate"
+msgstr "有効化する"
+
+#: inc/plugin-enhancements.php:265
+msgid " Please activate %1$s. %2$s"
+msgstr "%1$sを有効化してください。%2$s"
+
+#: inc/plugin-enhancements.php:188
+msgid "Custom Content Types module"
+msgstr "カスタム投稿タイプのモジュール"
+
+#: inc/plugin-enhancements.php:187
+msgid "no specific module needed"
+msgstr "特に必要なモジュールはありません"
+
+#: inc/plugin-enhancements.php:160
+msgid "Portfolios"
+msgstr "ポートフォリオ"
+
+#: inc/plugin-enhancements.php:142
+msgid "Comics"
+msgstr "コミック"
+
+#: inc/plugin-enhancements.php:133
+msgid "Menus"
+msgstr "メニュー"
+
+#: inc/plugin-enhancements.php:124
+msgid "Social Menu"
+msgstr "ソーシャルメニュー"
+
+#: inc/plugin-enhancements.php:115
+msgid "Featured Content"
+msgstr "おすすめコンテンツ"
+
+#: inc/plugin-enhancements.php:106
+msgid "Site Logo"
+msgstr "サイトロゴ"
+
+#: inc/plugin-enhancements.php:83
+msgid "Jetpack plugin"
+msgstr "Jetpack プラグイン"
+
+#: inc/plugin-enhancements.php:82
+msgid "The %1$s is necessary to use some of this theme&rsquo;s features, including: "
+msgstr "%1$s はこのテーマのいくつかの機能を使用するために必要です: "
+
+#: inc/jetpack.php:116 inc/plugin-enhancements.php:151
+msgid "Testimonials"
+msgstr "推薦文"
+
+#. translators: %s: Name of current post.
+#: inc/extras.php:86
+msgid "Continue reading %s"
+msgstr "続きを読む %s"
+
+#: inc/customizer.php:56
+msgid "Bottom Footer Area Layout"
+msgstr "下部フッターエリアレイアウト"
+
+#: inc/customizer.php:46 inc/customizer.php:62
+msgid "3 Columns"
+msgstr "3カラム"
+
+#: inc/customizer.php:45 inc/customizer.php:61
+msgid "2 Columns"
+msgstr "2カラム"
+
+#: inc/customizer.php:44 inc/customizer.php:60
+msgid "1 Column"
+msgstr "1カラム"
+
+#: inc/customizer.php:40
+msgid "Top Footer Area Layout"
+msgstr "トップフッターエリアのレイアウト"
+
+#: inc/customizer.php:19
+msgid "Theme Options"
+msgstr "テーマオプション"
+
+#: header.php:43
+msgid "Primary Menu"
+msgstr "メインメニュー"
+
+#: header.php:41
+msgid "Menu"
+msgstr "メニュー"
+
+#: header.php:25
+msgid "Skip to content"
+msgstr "コンテンツへ移動"
+
+#: functions.php:204
+msgid "collapse child menu"
+msgstr "サブメニューを閉じる"
+
+#: functions.php:203
+msgid "expand child menu"
+msgstr "サブメニューを展開"
+
+#: functions.php:199
+msgid "Back to top"
+msgstr "トップに戻る"
+
+#. translators: If there are characters in your language that are not supported
+#. by Inconsolata, translate this to 'off'. Do not translate into your own
+#. language.
+#: functions.php:159
+msgctxt "Inconsolata font: on or off"
+msgid "on"
+msgstr "on"
+
+#. translators: If there are characters in your language that are not supported
+#. by Lato, translate this to 'off'. Do not translate into your own language.
+#: functions.php:154
+msgctxt "Lato font: on or off"
+msgid "on"
+msgstr "on"
+
+#. translators: If there are characters in your language that are not supported
+#. by Poppins, translate this to 'off'. Do not translate into your own
+#. language.
+#: functions.php:149
+msgctxt "Poppins font: on or off"
+msgid "on"
+msgstr "on"
+
+#: functions.php:124
+msgid "Bottom Footer"
+msgstr "下部フッター"
+
+#: functions.php:114
+msgid "Top Footer"
+msgstr "トップフッター"
+
+#: functions.php:104
+msgid "Sidebar"
+msgstr "サイドバー"
+
+#: functions.php:55
+msgid "Primary"
+msgstr "メイン"
+
+#: footer.php:23
+msgid "Theme: %1$s by %2$s."
+msgstr "Theme: %1$s by %2$s."
+
+#: footer.php:21
+msgid "Proudly powered by %s"
+msgstr "Proudly powered by %s"
+
+#: footer.php:21
+msgid "https://wordpress.org/"
+msgstr "https://ja.wordpress.org/"
+
+#: comments.php:69
+msgid "Comments are closed."
+msgstr "ただいまコメントは受け付けていません。"
+
+#: comments.php:56
+msgid "Newer Comments"
+msgstr "新しいコメント"
+
+#: comments.php:55
+msgid "Older Comments"
+msgstr "過去のコメント"
+
+#: comments.php:52
+msgid "Comment navigation"
+msgstr "コメントナビゲーション"
+
+#: comments.php:32
+msgctxt "comments title"
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "&ldquo;%2$s&rdquo; への%1$s件のフィードバック"
+
+#: archive-jetpack-testimonial.php:49
+msgid "Testimonials navigation"
+msgstr "お客様の声ナビゲーション"
+
+#: archive-jetpack-testimonial.php:48
+msgid "Newer testimonials"
+msgstr "新しいお客様の声"
+
+#: archive-jetpack-testimonial.php:47
+msgid "Older testimonials"
+msgstr "過去のお客様の声"
+
+#. translators: %1$s: smiley
+#: 404.php:53
+msgid "Try looking in the monthly archives. %1$s"
+msgstr "月別アーカイブを探してみてください: %1$s"
+
+#: 404.php:35
+msgid "Most Used Categories"
+msgstr "よく使われているカテゴリー"
+
+#: 404.php:23
+msgid "It looks like nothing was found at this location. Maybe try one of the links below or a search?"
+msgstr "ここには何も見つかりませんでした。以下のリンクまたは検索をお試しください。"
+
+#: 404.php:19
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "このページは見つかりません。"
+
+#. Author URI of the plugin/theme
+msgid "https://wordpress.com/themes/"
+msgstr "https://wordpress.com/themes/"
+
+#. Author of the plugin/theme
+msgid "Automattic"
+msgstr "Automattic"
+
+#. Theme URI of the plugin/theme
+msgid "https://wordpress.com/themes/shoreditch/"
+msgstr "https://wordpress.com/themes/shoreditch/"

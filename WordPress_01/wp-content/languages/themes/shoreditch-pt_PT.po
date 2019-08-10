@@ -1,0 +1,313 @@
+# Translation of Themes - Shoreditch in Portuguese (Portugal)
+# This file is distributed under the same license as the Themes - Shoreditch package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2017-09-04 13:27:40+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: pt\n"
+"Project-Id-Version: Themes - Shoreditch\n"
+
+#. Description of the plugin/theme
+msgid "Shoreditch is a functional and responsive theme perfect for your business’s online presence. Although its main purpose is business, Shoreditch looks great as a personal blog theme too."
+msgstr "O Shoreditch é um tema funcional e responsivo, perfeito para a presença online do seu negócio. Embora seja desenvolvido a pensar em negócios, o Shoreditch também resulta muito bem como tema para blogues."
+
+#. Theme Name of the plugin/theme
+msgid "Shoreditch"
+msgstr "Shoreditch"
+
+#: attachment.php:29
+msgid "Published in"
+msgstr "Publicado em"
+
+#. Template Name of the plugin/theme
+msgid "Panel Page Template"
+msgstr "Modelo de página de painéis"
+
+#. Template Name of the plugin/theme
+msgid "Full Width Page Template"
+msgstr "Modelo de largura total"
+
+#. translators: %s: Name of current post.
+#: template-parts/content.php:34
+msgid "Continue reading %s <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Continuar a ler %s <span class=\"meta-nav\">&rarr;</span>"
+
+#: template-parts/content-page.php:31 template-parts/content-panel-page.php:33
+#: template-parts/content.php:43
+msgid "Page"
+msgstr "Página"
+
+#: template-parts/content-page.php:27 template-parts/content-panel-page.php:29
+#: template-parts/content.php:39
+msgid "Pages:"
+msgstr "Páginas:"
+
+#: template-parts/content-none.php:29
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "Não conseguimos encontrar o que está a procurar. Talvez outra pesquisa possa ajudar."
+
+#: template-parts/content-none.php:24
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "Não foi possível encontrar nada com os termos da sua pesquisa. Por favor, tente com palavras-chave diferentes."
+
+#: template-parts/content-none.php:20
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "Pronto para publicar o primeiro artigo? <a href=\"%1$s\">Comece aqui</a>."
+
+#: template-parts/content-none.php:14
+msgid "Nothing Found"
+msgstr "Não foi encontrado nada"
+
+#: template-parts/content-author.php:34
+msgid "View all posts by %s"
+msgstr "Ver todos os artigos de %s"
+
+#: template-parts/content-author.php:28
+msgid "Published by %s"
+msgstr "Publicado por %s"
+
+#: single.php:37
+msgid "Previous post:"
+msgstr "Artigo anterior:"
+
+#: single.php:37
+msgid "Previous"
+msgstr "Anterior"
+
+#: single.php:36
+msgid "Next post:"
+msgstr "Artigo seguinte:"
+
+#: single.php:36
+msgid "Next"
+msgstr "Seguinte"
+
+#: searchform.php:14
+msgctxt "submit button"
+msgid "Search"
+msgstr "Procurar"
+
+#: searchform.php:12
+msgctxt "placeholder"
+msgid "Search &hellip;"
+msgstr "Pesquisar &hellip;"
+
+#: searchform.php:11 searchform.php:12
+msgctxt "label"
+msgid "Search for:"
+msgstr "Procurar por:"
+
+#: search.php:21
+msgid "Search Results for: %s"
+msgstr "Resultados da pesquisa por: %s"
+
+#. translators: %s: Name of current post
+#: inc/template-tags.php:67 template-parts/content-attachment.php:38
+#: template-parts/content-page.php:41 template-parts/content-panel-page.php:43
+msgid "Edit %s"
+msgstr "Editar %s"
+
+#: inc/template-tags.php:60
+msgid "% Comments"
+msgstr "% Comentários"
+
+#: inc/template-tags.php:60
+msgid "1 Comment"
+msgstr "1 Comentário"
+
+#: inc/template-tags.php:60
+msgid "Leave a comment"
+msgstr "Comentar"
+
+#: inc/template-tags.php:46
+msgid "Featured Post"
+msgstr "Postagem em Destaque"
+
+#. translators: used between list items, there is a space after the comma
+#: inc/template-tags.php:17 inc/template-tags.php:52
+msgid ", "
+msgstr ", "
+
+#: inc/jetpack.php:128
+msgid "Testimonials"
+msgstr "Depoimentos"
+
+#: inc/jetpack.php:34
+msgid "The featured content section displays on the index page bellow the header."
+msgstr "A secção de conteúdo em destaque (featured) é apresentada na página index abaixo do cabeçalho."
+
+#. translators: %s: Name of current post.
+#: inc/extras.php:86
+msgid "Continue reading %s"
+msgstr "Continue a ler %s"
+
+#: inc/customizer.php:56
+msgid "Bottom Footer Area Layout"
+msgstr "Layout da área de rodapé inferior"
+
+#: inc/customizer.php:46 inc/customizer.php:62
+msgid "3 Columns"
+msgstr "3 Colunas"
+
+#: inc/customizer.php:45 inc/customizer.php:61
+msgid "2 Columns"
+msgstr "2 Colunas"
+
+#: inc/customizer.php:44 inc/customizer.php:60
+msgid "1 Column"
+msgstr "1 Coluna"
+
+#: inc/customizer.php:40
+msgid "Top Footer Area Layout"
+msgstr "Layout da área de rodapé superior"
+
+#: inc/customizer.php:29
+msgid "Fixed header when scrolling down."
+msgstr "Cabeçalho fixo ao deslocar para baixo."
+
+#: inc/customizer.php:19
+msgid "Theme Options"
+msgstr "Opções do tema"
+
+#: header.php:43
+msgid "Primary Menu"
+msgstr "Navegação primária"
+
+#: header.php:41
+msgid "Menu"
+msgstr "Menu"
+
+#: header.php:25
+msgid "Skip to content"
+msgstr "Ir para o conteúdo"
+
+#: functions.php:204
+msgid "collapse child menu"
+msgstr "fechar submenu"
+
+#: functions.php:203
+msgid "expand child menu"
+msgstr "expandir submenu"
+
+#: functions.php:199
+msgid "Back to top"
+msgstr "Voltar ao topo"
+
+#. translators: If there are characters in your language that are not supported
+#. by Inconsolata, translate this to 'off'. Do not translate into your own
+#. language.
+#: functions.php:159
+msgctxt "Inconsolata font: on or off"
+msgid "on"
+msgstr "em"
+
+#. translators: If there are characters in your language that are not supported
+#. by Lato, translate this to 'off'. Do not translate into your own language.
+#: functions.php:154
+msgctxt "Lato font: on or off"
+msgid "on"
+msgstr "em"
+
+#. translators: If there are characters in your language that are not supported
+#. by Poppins, translate this to 'off'. Do not translate into your own
+#. language.
+#: functions.php:149
+msgctxt "Poppins font: on or off"
+msgid "on"
+msgstr "em"
+
+#: functions.php:124
+msgid "Bottom Footer"
+msgstr "Rodapé (inferior)"
+
+#: functions.php:114
+msgid "Top Footer"
+msgstr "Rodapé (superior)"
+
+#: functions.php:104
+msgid "Sidebar"
+msgstr "Barra lateral"
+
+#: functions.php:55
+msgid "Primary"
+msgstr "Primário"
+
+#: footer.php:23
+msgid "Theme: %1$s by %2$s."
+msgstr "Tema: %1$s por %2$s."
+
+#: footer.php:21
+msgid "Proudly powered by %s"
+msgstr "Movido a %s."
+
+#: footer.php:21
+msgid "https://wordpress.org/"
+msgstr "https://pt.wordpress.org/"
+
+#: comments.php:69
+msgid "Comments are closed."
+msgstr "Os comentários estão fechados."
+
+#: comments.php:56
+msgid "Newer Comments"
+msgstr "Comentários recentes"
+
+#: comments.php:55
+msgid "Older Comments"
+msgstr "Comentários antigos"
+
+#: comments.php:52
+msgid "Comment navigation"
+msgstr "Navegação de comentários"
+
+#: comments.php:32
+msgctxt "comments title"
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "Um comentário em &ldquo;%2$s&rdquo;"
+msgstr[1] "%1$s comentários em  &ldquo;%2$s&rdquo;"
+
+#: archive-jetpack-testimonial.php:49
+msgid "Testimonials navigation"
+msgstr "Navegação de testemunhos"
+
+#: archive-jetpack-testimonial.php:48
+msgid "Newer testimonials"
+msgstr "Testemunhos mais recentes"
+
+#: archive-jetpack-testimonial.php:47
+msgid "Older testimonials"
+msgstr "Testemunhos mais antigos"
+
+#. translators: %1$s: smiley
+#: 404.php:53
+msgid "Try looking in the monthly archives. %1$s"
+msgstr "Tente procurar nos arquivos mensais. %1$s"
+
+#: 404.php:35
+msgid "Most Used Categories"
+msgstr "Categorias mais usadas"
+
+#: 404.php:23
+msgid "It looks like nothing was found at this location. Maybe try one of the links below or a search?"
+msgstr "Parece que nada foi encontrado neste local. Pode tentar uma das ligações abaixo ou uma pesquisa."
+
+#: 404.php:19
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "Ups! Página não encontrada."
+
+#. Author URI of the plugin/theme
+msgid "https://wordpress.com/themes/"
+msgstr "https://wordpress.com/themes/"
+
+#. Author of the plugin/theme
+msgid "Automattic"
+msgstr "Automattic"
+
+#. Theme URI of the plugin/theme
+msgid "https://wordpress.com/themes/shoreditch/"
+msgstr "https://wordpress.com/themes/shoreditch/"

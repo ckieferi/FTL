@@ -1,0 +1,313 @@
+# Translation of Themes - Shoreditch in Dutch
+# This file is distributed under the same license as the Themes - Shoreditch package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2017-04-22 09:10:05+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: nl\n"
+"Project-Id-Version: Themes - Shoreditch\n"
+
+#. Description of the plugin/theme
+msgid "Shoreditch is a functional and responsive theme perfect for your business’s online presence. Although its main purpose is business, Shoreditch looks great as a personal blog theme too."
+msgstr "Shoreditch is een functioneel en responsivethema, perfect voor de online aanwezigheid van je bedrijf. Hoewel Shoreditch op het bedrijfsleven is gericht, ziet het er als een persoonlijk blog thema ook geweldig uit."
+
+#. Theme Name of the plugin/theme
+msgid "Shoreditch"
+msgstr "Shoreditch"
+
+#: attachment.php:29
+msgid "Published in"
+msgstr "Gepubliceerd in"
+
+#. Template Name of the plugin/theme
+msgid "Panel Page Template"
+msgstr "Panel paginatemplate"
+
+#. Template Name of the plugin/theme
+msgid "Full Width Page Template"
+msgstr "Volledige breedte paginatemplate"
+
+#. translators: %s: Name of current post.
+#: template-parts/content.php:34
+msgid "Continue reading %s <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Ga verder met %s <span class=\"meta-nav\">&rarr;</span> lezen"
+
+#: template-parts/content-page.php:31 template-parts/content-panel-page.php:33
+#: template-parts/content.php:43
+msgid "Page"
+msgstr "Pagina"
+
+#: template-parts/content-page.php:27 template-parts/content-panel-page.php:29
+#: template-parts/content.php:39
+msgid "Pages:"
+msgstr "Pagina&rsquo;s:"
+
+#: template-parts/content-none.php:29
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "We hebben niet kunnen vinden wat je zocht. Probeer de zoekfunctie eens."
+
+#: template-parts/content-none.php:24
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "Helaas, deze zoekopdracht heeft niets opgeleverd. Probeer het nog eens met andere zoektermen."
+
+#: template-parts/content-none.php:20
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "Klaar voor het plaatsen van het eerste bericht? <a href=\"%1$s\">Begin hier</a>."
+
+#: template-parts/content-none.php:14
+msgid "Nothing Found"
+msgstr "Niets Gevonden"
+
+#: template-parts/content-author.php:34
+msgid "View all posts by %s"
+msgstr "Bekijk alle berichten van %s"
+
+#: template-parts/content-author.php:28
+msgid "Published by %s"
+msgstr "Gepubliceerd door %s"
+
+#: single.php:37
+msgid "Previous post:"
+msgstr "Vorig bericht:"
+
+#: single.php:37
+msgid "Previous"
+msgstr "Vorige"
+
+#: single.php:36
+msgid "Next post:"
+msgstr "Volgend bericht:"
+
+#: single.php:36
+msgid "Next"
+msgstr "Volgende"
+
+#: searchform.php:14
+msgctxt "submit button"
+msgid "Search"
+msgstr "Zoeken"
+
+#: searchform.php:12
+msgctxt "placeholder"
+msgid "Search &hellip;"
+msgstr "Zoeken &hellip;"
+
+#: searchform.php:11 searchform.php:12
+msgctxt "label"
+msgid "Search for:"
+msgstr "Zoeken op:"
+
+#: search.php:21
+msgid "Search Results for: %s"
+msgstr "Zoekresultaat voor: %s"
+
+#. translators: %s: Name of current post
+#: inc/template-tags.php:67 template-parts/content-attachment.php:38
+#: template-parts/content-page.php:41 template-parts/content-panel-page.php:43
+msgid "Edit %s"
+msgstr "Bewerken %s"
+
+#: inc/template-tags.php:60
+msgid "% Comments"
+msgstr "% Reacties"
+
+#: inc/template-tags.php:60
+msgid "1 Comment"
+msgstr "1 Reactie"
+
+#: inc/template-tags.php:60
+msgid "Leave a comment"
+msgstr "Reageren"
+
+#: inc/template-tags.php:46
+msgid "Featured Post"
+msgstr "Uitgelicht bericht"
+
+#. translators: used between list items, there is a space after the comma
+#: inc/template-tags.php:17 inc/template-tags.php:52
+msgid ", "
+msgstr ", "
+
+#: inc/jetpack.php:128
+msgid "Testimonials"
+msgstr "Aanbevelingen"
+
+#: inc/jetpack.php:34
+msgid "The featured content section displays on the index page bellow the header."
+msgstr "Het uitgelichte inhoud gedeelte wordt weergegeven op de index pagina onder de koptekst."
+
+#. translators: %s: Name of current post.
+#: inc/extras.php:86
+msgid "Continue reading %s"
+msgstr "Lees verder %s"
+
+#: inc/customizer.php:56
+msgid "Bottom Footer Area Layout"
+msgstr "Opmaak van onderste footer-gebied"
+
+#: inc/customizer.php:46 inc/customizer.php:62
+msgid "3 Columns"
+msgstr "3 Kolommen"
+
+#: inc/customizer.php:45 inc/customizer.php:61
+msgid "2 Columns"
+msgstr "2 Kolommen"
+
+#: inc/customizer.php:44 inc/customizer.php:60
+msgid "1 Column"
+msgstr "1 Kolom"
+
+#: inc/customizer.php:40
+msgid "Top Footer Area Layout"
+msgstr "Opmaak van bovenste footer-gebied"
+
+#: inc/customizer.php:29
+msgid "Fixed header when scrolling down."
+msgstr "Zichtbaar blijvende header bij naar beneden scrollen."
+
+#: inc/customizer.php:19
+msgid "Theme Options"
+msgstr "Thema Opties"
+
+#: header.php:43
+msgid "Primary Menu"
+msgstr "Primair Menu"
+
+#: header.php:41
+msgid "Menu"
+msgstr "Menu"
+
+#: header.php:25
+msgid "Skip to content"
+msgstr "Meteen naar de inhoud"
+
+#: functions.php:204
+msgid "collapse child menu"
+msgstr "submenu invouwen"
+
+#: functions.php:203
+msgid "expand child menu"
+msgstr "submenu uitvouwen"
+
+#: functions.php:199
+msgid "Back to top"
+msgstr "Terug naar boven"
+
+#. translators: If there are characters in your language that are not supported
+#. by Inconsolata, translate this to 'off'. Do not translate into your own
+#. language.
+#: functions.php:159
+msgctxt "Inconsolata font: on or off"
+msgid "on"
+msgstr "on"
+
+#. translators: If there are characters in your language that are not supported
+#. by Lato, translate this to 'off'. Do not translate into your own language.
+#: functions.php:154
+msgctxt "Lato font: on or off"
+msgid "on"
+msgstr "on"
+
+#. translators: If there are characters in your language that are not supported
+#. by Poppins, translate this to 'off'. Do not translate into your own
+#. language.
+#: functions.php:149
+msgctxt "Poppins font: on or off"
+msgid "on"
+msgstr "on"
+
+#: functions.php:124
+msgid "Bottom Footer"
+msgstr "Onderste footer"
+
+#: functions.php:114
+msgid "Top Footer"
+msgstr "Bovenste footer"
+
+#: functions.php:104
+msgid "Sidebar"
+msgstr "Sidebar"
+
+#: functions.php:55
+msgid "Primary"
+msgstr "Primair"
+
+#: footer.php:23
+msgid "Theme: %1$s by %2$s."
+msgstr "Thema: %1$s door %2$s."
+
+#: footer.php:21
+msgid "Proudly powered by %s"
+msgstr "Ondersteund door %s"
+
+#: footer.php:21
+msgid "https://wordpress.org/"
+msgstr "https://wordpress.org/"
+
+#: comments.php:69
+msgid "Comments are closed."
+msgstr "Reageren is niet meer mogelijk."
+
+#: comments.php:56
+msgid "Newer Comments"
+msgstr "Nieuwere reacties"
+
+#: comments.php:55
+msgid "Older Comments"
+msgstr "Oudere Reacties"
+
+#: comments.php:52
+msgid "Comment navigation"
+msgstr "Reactie navigatie"
+
+#: comments.php:32
+msgctxt "comments title"
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "Een gedachte over &ldquo;%2$s&rdquo;"
+msgstr[1] "%1$s gedachtes over &ldquo;%2$s&rdquo;"
+
+#: archive-jetpack-testimonial.php:49
+msgid "Testimonials navigation"
+msgstr "Aanbevelingen navigatie"
+
+#: archive-jetpack-testimonial.php:48
+msgid "Newer testimonials"
+msgstr "Nieuwe aanbevelingen"
+
+#: archive-jetpack-testimonial.php:47
+msgid "Older testimonials"
+msgstr "Oudere aanbevelingen"
+
+#. translators: %1$s: smiley
+#: 404.php:53
+msgid "Try looking in the monthly archives. %1$s"
+msgstr "Kijk eens in de maandelijkse archieven. %1$s"
+
+#: 404.php:35
+msgid "Most Used Categories"
+msgstr "Meest gebruikte categorieën"
+
+#: 404.php:23
+msgid "It looks like nothing was found at this location. Maybe try one of the links below or a search?"
+msgstr "Er is op deze plek niets gevonden. Probeer één van de onderstaande links of een zoekopdracht."
+
+#: 404.php:19
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "Oeps! Die pagina bestaat niet."
+
+#. Author URI of the plugin/theme
+msgid "https://wordpress.com/themes/"
+msgstr "https://wordpress.com/themes/"
+
+#. Author of the plugin/theme
+msgid "Automattic"
+msgstr "Automattic"
+
+#. Theme URI of the plugin/theme
+msgid "https://wordpress.com/themes/shoreditch/"
+msgstr "https://wordpress.com/themes/shoreditch/"
