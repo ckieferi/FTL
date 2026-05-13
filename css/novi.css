@@ -1,0 +1,11 @@
+
+.rd-navbar-default.rd-navbar-transparent.rd-navbar-static .rd-navbar-nav>li a[data-novi-id="1"]{
+  color: rgb(68, 66, 69);
+}
+[data-novi-id="1"]{
+  text-decoration: underline;
+}
+[data-novi-id="0"]{
+  text-decoration: underline;
+  color: rgb(68, 66, 69);
+}
