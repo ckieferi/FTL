@@ -1,6 +1,11 @@
 @charset "UTF-8";
 @import 'https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.css';
 
+html { scroll-behavior: smooth; }
+
+#team .text-lg-left h5 { margin-bottom: 2px; }
+#team .text-lg-left p  { margin-top: 0; margin-bottom: 4px; }
+
 @media print {
 
   *,
