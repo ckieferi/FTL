@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html class="wide wow-animation scrollTo smoothscroll" lang="en">
+
+<head>
+    <title>Blog - Fintech Ladies</title>
+    <meta charset="utf-8">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Montserrat:400,700%7CLato:300,300italic,400,700,900%7CYesteryear">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/novi.css">
+    <style>
+      .rd-navbar-static.rd-navbar--is-stuck {
+        background: #fff !important;
+        box-shadow: 0 2px 12px rgba(0,0,0,0.08) !important;
+      }
+      .rd-navbar-static.rd-navbar--is-stuck .rd-navbar-nav > li > a {
+        color: #333 !important;
+      }
+      hr.divider.bg-mantis, hr.divider.bg-mantis-white { background: #d0d0d0 !important; }
+      .btn { border-radius: 4px !important; }
+      .btn-primary { background-color: #4caa5a !important; border-color: #4caa5a !important; }
+      .page-footer { background-color: #2c2c2c !important; }
+
+      .blog-hero {
+        background-color: #edf7ee;
+        padding: 80px 0 50px;
+        text-align: center;
+      }
+      .blog-hero h1 { color: #333; margin-bottom: 8px; }
+      .blog-hero p { color: #666; font-size: 1.05rem; }
+
+      .blog-grid {
+        padding: 60px 0 80px;
+        background-color: #fff;
+      }
+
+      .blog-post {
+        display: flex;
+        align-items: center;
+        gap: 48px;
+        margin-bottom: 60px;
+        padding-bottom: 60px;
+        border-bottom: 1px solid #e8e8e8;
+        text-align: left;
+      }
+      .blog-post:last-child {
+        border-bottom: none;
+        margin-bottom: 0;
+        padding-bottom: 0;
+      }
+      .blog-post img {
+        width: 420px;
+        min-width: 420px;
+        height: 280px;
+        object-fit: cover;
+        border-radius: 6px;
+      }
+      .blog-post.reverse {
+        flex-direction: row-reverse;
+      }
+      .blog-post-date {
+        font-size: 0.78rem;
+        color: #999;
+        text-transform: uppercase;
+        letter-spacing: 0.06em;
+        margin-bottom: 8px;
+      }
+      .blog-post-title {
+        font-size: 1.2rem;
+        font-weight: 700;
+        color: #222;
+        margin: 0 0 14px;
+      }
+      .blog-post-text {
+        color: #444;
+        font-size: 0.95rem;
+        line-height: 1.7;
+        margin: 0;
+      }
+
+      @media (max-width: 767px) {
+        .blog-post, .blog-post.reverse { flex-direction: column; }
+        .blog-post img { width: 100%; min-width: unset; height: 220px; }
+      }
+
+      /* To add a new post: copy one .blog-post block, paste at the top,
+         add class "reverse" to alternate the image side,
+         update image src, date, title, and text. */
+    </style>
+    <link rel="preload" href="fonts/materialdesignicons-webfont.woff2?v=1.4.57" as="font" type="font/woff2" crossorigin="anonymous">
+    <link rel="preload" href="fonts/fontawesome-webfont.woff2?v=4.5.0" as="font" type="font/woff2" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="page-loader page-loader-variant-1">
+        <div><img class="img-fluid" src="images/ftl_images/ftl-logo-de-100.png" alt="" width="100" height="100">
+            <div class="offset-top-41 text-center">
+                <div class="spinner"></div>
+            </div>
+        </div>
+    </div>
+    <div class="page text-center">
+
+        <!-- Navbar -->
+        <header class="page-head">
+            <div class="rd-navbar-wrap">
+                <nav class="rd-navbar rd-navbar-default rd-navbar-dark" data-md-device-layout="rd-navbar-fixed" data-lg-device-layout="rd-navbar-static" data-lg-auto-height="true" data-md-layout="rd-navbar-fixed" data-lg-layout="rd-navbar-static" data-lg-stick-up="true">
+                    <div class="rd-navbar-inner">
+                        <div class="rd-navbar-panel"><button class="rd-navbar-toggle" data-rd-navbar-toggle=".rd-navbar, .rd-navbar-nav-wrap"><span></span></button>
+                            <div class="rd-navbar-brand"><a href="index.html"><img style="margin-top: -5px;margin-left: -15px;" src="images/ftl_images/ftl-logo-de-60.png" alt="Fintech Ladies Logo" width="60" height="60"></a></div>
+                        </div>
+                        <div class="rd-navbar-menu-wrap">
+                            <div class="rd-navbar-nav-wrap">
+                                <div class="rd-navbar-mobile-scroll">
+                                    <div class="rd-navbar-mobile-brand"><img style="margin-top: -5px;margin-left: -15px;" src="images/ftl_images/ftl-logo-de-60.png" alt="Fintech Ladies Logo" width="60" height="60"></div>
+                                    <ul class="rd-navbar-nav">
+                                        <li class="rd-navbar-submenu"><a href="index.html"><span>Home</span></a></li>
+                                        <li class="rd-navbar-submenu"><a href="index.html#events"><span>Events</span></a></li>
+                                        <li class="rd-navbar-submenu"><a href="index.html#team"><span>Team</span></a></li>
+                                        <li class="rd-navbar-submenu"><a href="index.html#contact"><span>Contact</span></a></li>
+                                        <li class="active rd-navbar-submenu"><a href="blog.html"><span>Blog</span></a></li>
+                                        <li class="rd-navbar-submenu"><a href="faq.html"><span>FAQ</span></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </header>
+
+        <!-- Page header -->
+        <div class="blog-hero">
+            <div class="container">
+                <h1>Blog</h1>
+                <hr class="divider bg-mantis-white" style="background: #d0d0d0 !important;">
+                <p>News and stories from the Fintech Ladies community</p>
+            </div>
+        </div>
+
+        <!-- Blog posts -->
+        <section class="blog-grid">
+            <div class="container">
+
+                <!-- POST 1 — Fibe Berlin 2026 (newest) — image left -->
+                <div class="blog-post">
+                    <img src="images/blog/fibe-berlin-2026.png" alt="Fintech Ladies at Fibe Berlin 2026">
+                    <div>
+                        <div class="blog-post-date">April 2026</div>
+                        <p class="blog-post-title">Fintech Ladies @ Fibe Berlin 2026</p>
+                        <p class="blog-post-text">Our meetup "Rewrite the Script: Navigating Your Career in the Age of AI" was one for the books. We came together to talk about AI anxiety, career confidence, and what it really means to grow in a tech-driven financial world. Young professionals asked sharp, honest, brave questions — and the discussion ran almost as long as the session itself. A huge thank you to our panelist Elly G. and host Ulrike Czekay, and to all the Fintech Ladies who made the afternoon unforgettable. Grateful to the FIBE team for the platform — we are already looking forward to next year!</p>
+                    </div>
+                </div>
+
+                <!-- POST 2 — Sopra Steria Berlin — image right -->
+                <div class="blog-post reverse">
+                    <img src="images/blog/sopra-steria-berlin.jpeg" alt="Fintech Ladies Berlin at Sopra Steria">
+                    <div>
+                        <div class="blog-post-date">March 2026</div>
+                        <p class="blog-post-title">FTL Berlin @ Sopra Steria</p>
+                        <p class="blog-post-text">We had the pleasure of hosting a wonderful evening with the Fintech Ladies Berlin community at Sopra Steria. The event brought together professionals from across fintech, compliance, and tech to explore the future of transaction monitoring through the lens of AI. We gained valuable insights into AGENTS.inc and the application of AI in transaction monitoring — alongside great networking, excellent food and drinks. Special thanks to Henrik Pfeiffer, Larissa Franze, and Dr. Tatjana Samsonowa-Denef for sharing their expertise, and to everyone who joined us!</p>
+                    </div>
+                </div>
+
+                <!-- POST 3 — FTL NRW @ FinTraWorld26 — image left -->
+                <div class="blog-post">
+                    <img src="images/blog/fintraworld-nrw.jpeg" alt="FTL NRW at FinTraWorld 2026">
+                    <div>
+                        <div class="blog-post-date">January 2026</div>
+                        <p class="blog-post-title">FTL NRW @ FinTraWorld26</p>
+                        <p class="blog-post-text">One highlight of FinTraWorld 2026 was our get-together and the stage conversation with Nicole Nitsche and Anne Leonhardt, Fintech Ladies Ambassador for NRW. We spoke openly about non-linear career paths into finance and how thematic pivots can bring valuable new perspectives. Leadership often starts long before you manage a team — through ownership, responsibility, and supporting colleagues. A big welcome to all new Fintech Ladies who joined our community at the event! Thank you to Thorsten Hahn, Fiona Gleim, Maria Scherban and the entire BANKINGCLUB team.</p>
+                    </div>
+                </div>
+
+                <!-- POST 4 — FTL Brussels @ Swift — image right -->
+                <div class="blog-post reverse">
+                    <img src="images/blog/brussels-swift.jpeg" alt="FTL Brussels at Swift">
+                    <div>
+                        <div class="blog-post-date">January 2026</div>
+                        <p class="blog-post-title">FTL Brussels @ Swift</p>
+                        <p class="blog-post-text">On January 26th we had a very successful event at Swift Brussels! We are grateful to our host for the warm welcome and the amazing catering. During our discussions on Building Resilient Futures, one theme consistently emerged: despite the rapid evolution of emerging technologies, it is trust that gives us confidence. As Astrid Coppens from Swift clearly stated: "Be the pilot, not the passenger." A big thank-you to all panel speakers: Nadine van Son, Patrycja Wisniewska, Jennifer McLaughlin, Astrid Coppens, Patricia Boydens, Cheri F. McGuire and our founder Christine Kiefer.</p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="section novi-background section-relative section-top-66 section-bottom-34 page-footer context-dark">
+            <div class="container">
+                <div class="row justify-content-sm-center text-xl-left grid-group-md">
+                    <div class="col-sm-12 col-xl-12 text-center">
+                        <div class="footer-brand"><a href="index.html"><img src="images/ftl_images/ftl-logo-de-100.png" alt="" width="100" height="100"></a></div>
+                        <p class="text-darker">We shape the future of finance</p>
+                        <ul class="list-inline">
+                            <li class="list-inline-item"><a class="icon novi-icon fa fa-linkedin icon-xxs icon-circle icon-darkest-filled" href="https://de.linkedin.com/company/fintechladies" target="_blank"></a></li>
+                            <li class="list-inline-item"><a class="icon novi-icon fa fa-twitter icon-xxs icon-circle icon-darkest-filled" href="https://www.twitter.com/FintechLadies" target="_blank"></a></li>
+                            <li class="list-inline-item"><a class="icon novi-icon fa fa-instagram icon-xxs icon-circle icon-darkest-filled" href="https://www.instagram.com/FintechLadies" target="_blank"></a></li>
+                            <li class="list-inline-item"><a class="icon novi-icon fa fa-facebook icon-xxs icon-circle icon-darkest-filled" href="https://www.facebook.com/pg/FintechLadies" target="_blank"></a></li>
+                            <li class="list-inline-item"><a class="icon novi-icon fa fa-youtube icon-xxs icon-circle icon-darkest-filled" href="https://www.youtube.com/channel/UCZB27F6iaIf6SYYMsO8tW1A" target="_blank"></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="container offset-top-10">
+                <p class="small text-darker">Intense © <span class="copyright-year">2019</span> . <a href="privacy.html">Privacy Policy</a> . <a href="imprint.html">Imprint</a></p>
+            </div>
+        </footer>
+
+    </div>
+    <div class="snackbars" id="form-output-global"></div>
+    <script src="js/core.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>

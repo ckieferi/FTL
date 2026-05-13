@@ -13,6 +13,50 @@
     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Montserrat:400,700%7CLato:300,300italic,400,700,900%7CYesteryear">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/novi.css">
+    <style>
+      /* Modern redesign overrides */
+
+      /* Hero: lighter overlay so photos breathe */
+      .swiper-slider .swiper-slide:before {
+        background: rgba(0,0,0,0.25) !important;
+      }
+
+      /* Navbar: white background when scrolled */
+      .rd-navbar-static.rd-navbar--is-stuck {
+        background: #fff !important;
+        box-shadow: 0 2px 12px rgba(0,0,0,0.08) !important;
+      }
+      .rd-navbar-static.rd-navbar--is-stuck .rd-navbar-nav > li > a {
+        color: #333 !important;
+      }
+
+      /* About Us: dark headings and text */
+      #home-section-welcome h1,
+      #home-section-welcome p { color: #333 !important; }
+      #home-section-welcome hr.divider { background: #d0d0d0 !important; }
+
+      /* Events: neutral headings */
+      #events h1 { color: #333; }
+      #events hr.divider { background: #d0d0d0 !important; }
+      #events p { color: #444; }
+
+      /* Team: neutral headings */
+      #team h1 { color: #333; }
+      #team hr.divider { background: #d0d0d0 !important; }
+      #team h5 { color: #222; }
+      #team p  { color: #555; }
+
+      /* Override bg-mantis green gradient on all dividers */
+      hr.divider.bg-mantis, hr.divider.bg-mantis-white { background: #d0d0d0 !important; }
+
+      /* Buttons: slightly rounded for a friendlier feel */
+      .btn { border-radius: 4px !important; }
+      .btn-primary { background-color: #4caa5a !important; border-color: #4caa5a !important; }
+      .btn-primary:hover { background-color: #3d9149 !important; border-color: #3d9149 !important; }
+
+      /* Footer: dark charcoal instead of pure black */
+      .page-footer { background-color: #2c2c2c !important; }
+    </style>
     <!--[if lt IE 10]><div         style="background: #212121; padding: 10px 0; box-shadow: 3px 3px 5px 0 rgba(0,0,0,.3); clear: both; text-align:center; position: relative; z-index:1;"       ><a href="http://windows.microsoft.com/en-US/internet-explorer/"           ><img             src="images/ie8-panel/warning_bar_0000_us.jpg"             border="0"             height="42"             width="820"             alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today."         /></a></div><script src="js/html5shiv.min.js"></script><![endif]-->
     <meta name="description" content="The Fintech Ladies are a network for women in finance and tech. Headquartered in Berlin, the network has expanded to various cities all over Europe.">
     <link rel="preload" href="fonts/materialdesignicons-webfont.woff2?v=1.4.57" as="font" type="font/woff2" crossorigin="anonymous">
@@ -44,7 +88,7 @@
                                         <li class="rd-navbar-submenu"><a href="#events"><span>Events</span></a></li>
                                         <li class="rd-navbar-submenu"><a href="#team"><span>Team</span></a></li>
                                         <li class="rd-navbar-submenu"><a href="#contact"><span>Contact</span></a></li>
-                                        <!--<li class="rd-navbar-submenu"><a href="http://blog.fintechladies.com/"><span>Blog</span></a></li>-->
+                                        <li class="rd-navbar-submenu"><a href="blog.html"><span>Blog</span></a></li>
                                         <li class="rd-navbar-submenu"><a href="faq.html"><span>FAQ</span></a></li>
                                     </ul>
                                 </div>
@@ -141,7 +185,7 @@
                 <div class="swiper-pagination"></div>
             </div>
         </header>
-        <section class="section novi-background section-50 section-sm-top-110 section-sm-bottom-98 section-mock-up" id="home-section-welcome" style="background-color: #66cc66;">
+        <section class="section novi-background section-50 section-sm-top-110 section-sm-bottom-98 section-mock-up" id="home-section-welcome" style="background-color: #edf7ee; color: #333;">
             <div class="container">
                 <div class="row justify-content-sm-center">
                     <div class="col-lg-10">
@@ -152,7 +196,7 @@
                 </div>
             </div>
         </section>
-        <section id="events" class="section novi-background section-98 section-sm-110" style="background-color: #0f1117; color: white;">
+        <section id="events" class="section novi-background section-98 section-sm-110" style="background-color: #ffffff; color: #333; border-top: 1px solid #e8e8e8; border-bottom: 1px solid #e8e8e8;">
             <div class="container">
                 <div class="row justify-content-sm-center">
                     <div class="col-lg-10">
@@ -164,9 +208,9 @@
 
                 <div style="display: flex; justify-content: center; margin-top: 40px; margin-bottom: 40px;">
                 <iframe
-                  src="https://luma.com/embed/calendar/cal-M8ojzJLyF11l0lB/events?lt=dark"
+                  src="https://luma.com/embed/calendar/cal-M8ojzJLyF11l0lB/events"
                   width="600"
-                  height="600"
+                  height="450"
                   frameborder="0"
                   style="border: 1px solid #bfcbda88; border-radius: 4px;"
                   allowfullscreen=""
@@ -177,12 +221,12 @@
 
                 <div class="row justify-content-sm-center">
                     <div class="col-lg-10">
-                        <p>We are always looking for new event hosts and sponsors who invite us to their office or who support our network.<br>Are you interested in hosting an event? Send an email to <a href="mailto:team@fintechladies.com" style="color: white;">team@fintechladies.com</a>.</p>
+                        <p>We are always looking for new event hosts and sponsors who invite us to their office or who support our network.<br>Are you interested in hosting an event? Send an email to <a href="mailto:team@fintechladies.com" style="color: #4caa5a;">team@fintechladies.com</a>.</p>
                     </div>
                 </div>
             </div>
         </section>
-        <section class="section novi-background section-98 section-sm-110">
+        <section class="section novi-background section-98 section-sm-110" style="background-color: #f7f7f7;">
             <div class="container">
                 <h1>Impressions</h1>
                 <hr class="divider bg-mantis">
@@ -225,7 +269,7 @@
                 </div>
             </div>
         </section>
-        <section id="team" class="section novi-background section-98 section-sm-110" style="background-color: rgb(222, 222, 222);">
+        <section id="team" class="section novi-background section-98 section-sm-110" style="background-color: #e8e8e8;">
             <div class="container">
                 <h1 class="">Team</h1>
                 <hr class="divider bg-mantis">
@@ -385,7 +429,7 @@
                                     </div>
                                     <div class="form-group row text-left offset-top-20">
                                         <div class="col-md-6"><label class="form-label-outside" for="contact-me-name">Hubs I am interested in:</label>
-                                            <div class="form-control mc-field-group input-group">
+                                            <div class="form-control mc-field-group input-group" style="height: auto !important; min-height: 0 !important; padding: 4px 10px !important; font-size: 0.85rem;">
                                                 <ul>
                                                     <ul><input type="checkbox" value="1" name="group[531][1]" id="mce-group[531]-531-0"><label for="mce-group[531]-531-0"> Berlin</label></ul>
                                                     <ul><input type="checkbox" value="16" name="group[531][16]" id="mce-group[531]-531-4"><label for="mce-group[531]-531-4"> Frankfurt</label></ul>
@@ -432,7 +476,7 @@
                 </div>
             </div>
         </section>!-->
-        <footer class="section novi-background section-relative section-top-66 section-bottom-34 page-footer bg-black context-dark">
+        <footer class="section novi-background section-relative section-top-66 section-bottom-34 page-footer context-dark">
             <div class="container">
                 <div class="row justify-content-sm-center text-xl-left grid-group-md">
                     <div class="col-sm-12 col-xl-12 text-center">
