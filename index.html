@@ -46,6 +46,17 @@
       #team h5 { color: #222; }
       #team p  { color: #555; }
 
+      /* Hide team bio overlay on mobile/tablet (no hover on touch screens) */
+      .mobile .thumbnail-rayen figcaption,
+      .tablet .thumbnail-rayen figcaption {
+        opacity: 0 !important;
+        visibility: hidden !important;
+      }
+      .mobile .thumbnail-rayen:before,
+      .tablet .thumbnail-rayen:before {
+        opacity: 0 !important;
+      }
+
       /* Override bg-mantis green gradient on all dividers */
       hr.divider.bg-mantis, hr.divider.bg-mantis-white { background: #d0d0d0 !important; }
 
