@@ -11,14 +11,21 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      - name: Install lftp
+        run: sudo apt-get install -y lftp
+
+      - name: List remote directories
+        env:
+          FTP_SERVER: ${{ secrets.FTP_SERVER }}
+          FTP_USERNAME: ${{ secrets.FTP_USERNAME }}
+          FTP_PASSWORD: ${{ secrets.FTP_PASSWORD }}
+        run: |
+          lftp -e "set sftp:auto-confirm yes; set net:timeout 30; open sftp://$FTP_USERNAME:$FTP_PASSWORD@$FTP_SERVER:22; ls -la; bye"
+
       - name: Upload to Strato via SFTP
-        uses: wlixcc/SFTP-Deploy-Action@v1.2.4
-        with:
-          server: ${{ secrets.FTP_SERVER }}
-          port: 22
-          username: ${{ secrets.FTP_USERNAME }}
-          password: ${{ secrets.FTP_PASSWORD }}
-          local_path: "./*"
-          remote_path: "/htdocs/"
-          sftp_only: true
-          delete_remote_files: false
+        env:
+          FTP_SERVER: ${{ secrets.FTP_SERVER }}
+          FTP_USERNAME: ${{ secrets.FTP_USERNAME }}
+          FTP_PASSWORD: ${{ secrets.FTP_PASSWORD }}
+        run: |
+          lftp -e "set sftp:auto-confirm yes; set net:timeout 60; open sftp://$FTP_USERNAME:$FTP_PASSWORD@$FTP_SERVER:22; mirror -R --delete --exclude=^\.git/ --exclude=^\.github/ --exclude=^blog/ . /htdocs/; bye"
